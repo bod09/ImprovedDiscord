@@ -1,0 +1,156 @@
+/*MEMBER LIST*/
+
+/*Member list width*/
+.channel-members {
+    max-width: 200px;
+}
+.channel-members-wrap {
+    min-width: 200px;
+}
+/*Padding on rank headings*/
+.channel-members h2 {
+    padding: 0 10px;
+}
+/*Padding on users*/
+.channel-members .member {
+    padding: 5px 10px 5px 10px;
+}
+/*Padding between avtar and name*/
+.channel-members .avatar-small {
+    margin: 0 5px 0 0;
+}
+
+/*SERVER CHAT*/
+
+/*Chat messages margin*/
+.message-group {
+    margin-left: 10px;
+	margin-right: 0;
+}
+/*Margin on right of avatar*/
+.message-group .avatar-large {
+    margin-right: 10px;
+}
+/*Imbeded videos padding*/
+.embedInner-t4ag7g {
+    padding: 5px 5px;
+}
+/* Chat Track Piece */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    visibility: hidden;
+}
+/* Chat Scroller Thumb */
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+/* Chat Track Piece */
+.theme-dark:hover .friends-table:hover .scroller-wrap:hover ::-webkit-scrollbar-track-piece, .theme-dark:hover .messages-wrapper:hover .scroller-wrap:hover ::-webkit-scrollbar-track-piece {
+    visibility: visible;
+}
+/* Chat Scroller Thumb */
+.theme-dark:hover .friends-table:hover .scroller-wrap:hover ::-webkit-scrollbar-thumb, .theme-dark:hover .messages-wrapper:hover .scroller-wrap:hover ::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+/*SERVER CHAT TYPING BAR*/
+
+.chat form {
+    margin: 0px;
+}
+.channelTextArea-os01xC {
+    margin: 0px;
+}
+/*default heighr 44px new 52px +8 difference*/
+.innerNoAutocomplete-kaUXJZ {
+    border-radius: 0px;
+    height: 52px;
+}
+/*stuff in typing bar re aligning*/
+.attachButton-Di6YUh {
+    height: 32px;
+}
+.emojiButton-38mF6t {
+    top: 15px;
+}
+.textAreaEnabled-2vOfh8 {
+    padding: 14px 38px 10px 0;
+}
+/*typing*/
+.theme-dark .typing-3eiiL_ {
+    background-color: #42454a;
+}
+.theme-light .typing-3eiiL_ {
+    background-color: #e5e5e5;
+}
+.typing-3eiiL_ {
+    bottom: 75%;
+    height: 26px;
+    left: 50%;
+    position: absolute;
+    width: auto;
+    padding: 0 10px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px 5px 0 0;
+	opacity: .80;
+}
+.typing-3eiiL_:hover {
+    opacity: 1;
+}
+
+/*SERVER CHANNELS*/
+
+/*Server channels width (default 240)*/
+.channels-3g2vYe {
+    width: 230px;
+}
+
+/*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
+
+/*Improved status icon on pictures*/
+.avatar-small .status {
+    background-color: transparent;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    bottom: -10%!important;
+    right: -10%!important;
+}
+.avatar-small .status-online {
+    border-color: #43b581!important;
+}
+.avatar-small .status-idle {
+    border-color: #faa61a!important;
+}
+.avatar-small .status-dnd {
+    border-color: #f04747!important;
+}
+.avatar-small .status-offline, .avatar-small .status-invisible {
+    border-color: #747f8d!important;
+}
+
+/*Hide text before game/program name on servers and friends*/
+.channel-members .member .member-activity-text, .private-channels .channel .channel-activity-text {
+	font-size: 0px !important;
+}
+.channel-members .member .member-activity-text strong {
+	font-size: 11px !important;
+}
+.private-channels .channel .channel-activity-text strong {
+	font-size: 10px !important;
+}
+/*Game/program text line fix*/
+.channel-members .member .member-activity-text {
+    height: 13px;
+}
+.private-channels .channel .channel-activity-text {
+    height: 10px;
+}
+/*Avatar*/
+.avatar-small[style*='131383022653145089'], .avatar-large[style*='131383022653145089'], .image-EVRGPw[style*='131383022653145089'] {
+	background-image:url(http://pa1.narvii.com/6588/cab785b4909df8480f5f6517c017634f1feb3d32_128.gif)!important;
+}
+/*Google translate plugin button*/
+.translate-button {
+	top: 15px;
+}
