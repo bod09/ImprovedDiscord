@@ -1,2 +1,2 @@
 # ImprovedDiscord
-This theme is currently unfinished and the repository still needs sorting out.
+The goal of this theme is to stay as close as possible to the default look of discord while improving upon it and making it more compact. 
