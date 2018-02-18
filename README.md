@@ -1,2 +1,2 @@
 # ImprovedDiscord
-This is a theme made for Better Discord.
+This theme is currently unfinished and the repository still needs sorting out.
