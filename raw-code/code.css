@@ -84,9 +84,7 @@
 }
 .typing-3eiiL_ {
     bottom: 75%;
-    height: 26px;
     left: 50%;
-    position: absolute;
     width: auto;
     padding: 0 10px;
     -ms-transform: translate(-50%, -50%);
@@ -116,12 +114,10 @@
     bottom: -10%!important;
     right: -10%!important;
 }
-.avatar-small .status-online {border-color: #43b581!important;}
-.avatar-small .status-idle {border-color: #faa61a!important;}
-.avatar-small .status-dnd {border-color: #f04747!important;}
-.avatar-small .status-offline, .avatar-small .status-invisible {border-color: #747f8d!important;}
-
-.avatar-small .status {width: 32px!important;}
+.status-online {border-color: #43b581!important;}
+.status-idle {border-color: #faa61a!important;}
+.status-dnd {border-color: #f04747!important;}
+.status-offline, .status-invisible {border-color: #747f8d!important;}
 
 /*Hide text before game/program name on servers and friends*/
 .channel-members .member .member-activity-text, .private-channels .channel .channel-activity-text {
