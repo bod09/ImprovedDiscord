@@ -142,5 +142,5 @@
 }
 /*Google translate plugin button*/
 .translate-button {
-	top: 15px;
+	top: 15px!important;
 }
