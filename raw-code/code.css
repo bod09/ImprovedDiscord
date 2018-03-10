@@ -137,6 +137,34 @@
     height: 10px;
 }
 
+/*GUILD BAR*/
+
+/*Guild bar size*/
+.guilds-wrapper {
+    width: 60px;
+}
+.guilds-wrapper .guilds .friends-online {
+    width: 40px;
+}
+.guilds-wrapper .guild-separator {
+    width: 40px;
+}
+.guilds-wrapper .guilds .guild .avatar-small {
+    background-size: 40px 40px;
+}
+.guilds-wrapper .guilds .guild .guild-inner a {
+    height: 40px;
+    width: 40px;
+}
+.guilds-wrapper .guilds .friends-icon {
+    height: 40px;
+    width: 40px;
+}
+.guilds-wrapper .guilds .guild {
+    height: 40px;
+    width: 40px;
+}
+
 /*Google translate plugin button*/
 .translate-button {
 	top: 15px!important;
