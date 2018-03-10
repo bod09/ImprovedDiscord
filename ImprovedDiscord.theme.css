@@ -2,6 +2,6 @@
 
 @import url(https://rawgit.com/bod09/ImprovedDiscord/master/raw-code/code.css);
 
-/*Disable this if you don't want this theme to give some users gif avatars.
+/*Disable this if you don't want this theme to give some users gif avatars (This feature uses quite a bit of CPU power).
 You can also contact me on discord to request a gif avatar.*/
 @import url(https://rawgit.com/bod09/ImprovedDiscord/master/raw-code/gif-avatars.css);
