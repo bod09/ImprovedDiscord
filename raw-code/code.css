@@ -162,6 +162,9 @@
     height: 40px;
     width: 40px;
 }
+.badge {
+    border-radius: 10px;
+}
 
 /*Google translate plugin button*/
 .translate-button {
