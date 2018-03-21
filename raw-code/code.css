@@ -187,6 +187,10 @@
 .container-iksrDt:hover .button-1aU9q1 {
     left: 0px;
 }
+/*guild wrapper fix*/
+.guilds-wrapper .guilds {
+    margin-bottom: 52px;
+}
 
 /*Google translate plugin button*/
 .translate-button {
