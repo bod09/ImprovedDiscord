@@ -166,28 +166,6 @@
     border-radius: 10px;
 }
 
-BOTTOM LEFT PROFILE/MUTE BUTTONS
-
-.container-iksrDt {
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-    width: 35px;
-    transition: width 0.5s;
-}
-.container-iksrDt:hover {
-    width: 265px;
-}
-.container-iksrDt .avatar-small {
-    margin: 0 25px 0 0;
-}
-.button-1aU9q1 {
-    left: -280px;
-}
-.container-iksrDt:hover .button-1aU9q1 {
-    left: 0px;
-}
-
 /*Google translate plugin button*/
 .translate-button {
 	top: 15px!important;
