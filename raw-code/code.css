@@ -182,10 +182,10 @@
     margin: 0 25px 0 0;
 }
 .button-1aU9q1 {
-    left: -280px;
+    width: 0;
 }
 .container-iksrDt:hover .button-1aU9q1 {
-    left: 0px;
+    width: 32px;
 }
 /*guild wrapper fix*/
 .guilds-wrapper .guilds {
