@@ -170,9 +170,10 @@
 
 .container-iksrDt {
     position: absolute;
-    bottom: 0px;
-    left: 5px;
+    bottom: 0;
+    left: 0;
     width: 35px;
+	padding: 0 10px 0 15px;
     transition: width 0.5s;
 }
 .container-iksrDt:hover {
