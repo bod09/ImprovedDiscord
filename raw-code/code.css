@@ -56,12 +56,16 @@
 
 .chat form {
     margin: 0px;
+	box-shadow: none;
 }
 .channelTextArea-os01xC {
     margin: 0px;
 }
 .innerNoAutocomplete-kaUXJZ {
     border-radius: 0px;
+}
+.theme-dark .chat form {
+    box-shadow: none;
 }
 /*stuff in typing bar re aligning*/
 .attachButton-Di6YUh {
@@ -174,6 +178,7 @@
     left: 0;
     width: 35px;
 	padding: 0 10px 0 15px;
+	margin-bottom: 0;
     transition: width 0.5s;
 }
 .container-iksrDt:hover {
