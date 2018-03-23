@@ -178,6 +178,7 @@
 }
 .container-iksrDt:hover {
     width: 265px;
+    background: linear-gradient(to right, #fff0 0%,#fff0 20.5%,#2a2c31 20.9%,#2a2c31 100%);
 }
 .container-iksrDt .avatar-small {
     margin: 0 25px 0 0;
