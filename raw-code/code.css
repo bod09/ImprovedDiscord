@@ -12,12 +12,13 @@
     padding: 0 10px;
 }
 /*Padding on users*/
-.channel-members .member {
-    padding: 5px 10px 5px 10px;
+.content-3JzEqq {
+    margin: 1px 0 1px 5px;
+    padding: 4px 8px 4px 5px;
 }
 /*Padding between avtar and name*/
-.channel-members .avatar-small {
-    margin: 0 5px 0 0;
+.avatarWrapper-3E-a5I {
+    margin-right: 5px;
 }
 
 /*SERVER CHAT*/
