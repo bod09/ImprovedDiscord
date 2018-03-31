@@ -122,14 +122,17 @@
 .status-offline, .status-invisible {border-color: #747f8d!important;}
 
 /*Hide text before game/program name on servers and friends*/
-.channel-members .member .member-activity-text, .private-channels .channel .channel-activity-text {
-	font-size: 0px !important;
+.activity-1PAe08 {
+    font-size: 0px;
 }
-.channel-members .member .member-activity-text strong {
-	font-size: 11px !important;
+.activity-1PAe08 strong {
+    font-size: 11px;
 }
-.private-channels .channel .channel-activity-text strong {
-	font-size: 10px !important;
+.private-channels .channel .channel-activity {
+    font-size: 0px;
+}
+.private-channels .channel .channel-activity strong {
+    font-size: 10px;
 }
 /*Game/program text line fix*/
 .channel-members .member .member-activity-text {
