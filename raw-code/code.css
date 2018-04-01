@@ -20,6 +20,11 @@
 .avatarWrapper-3E-a5I {
     margin-right: 5px;
 }
+/*remove black circle when moving status*/
+.mask-2vyqAW {
+    -webkit-mask: none;
+    mask: none;
+}
 
 /*SERVER CHAT*/
 
