@@ -114,7 +114,7 @@
 /*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
 
 /*Improved status icon on pictures*/
-.avatar-small .status {
+.avatar-small .status, .status-2Devx1 {
     background-color: transparent;
     height: 32px;
     width: 32px;
@@ -122,9 +122,9 @@
     bottom: -10%!important;
     right: -10%!important;
 }
-.status-online {border-color: #43b581!important;}
-.status-idle {border-color: #faa61a!important;}
-.status-dnd {border-color: #f04747!important;}
+.status-online, .statusOnline-1Mp2_H {border-color: #43b581!important;}
+.status-idle, .statusIdle-2AQdvu {border-color: #faa61a!important;}
+.status-dnd, .statusDnd-35xAXU {border-color: #f04747!important;}
 .status-offline, .status-invisible {border-color: #747f8d!important;}
 
 /*Hide text before game/program name on servers and friends*/
