@@ -178,6 +178,10 @@
 .badge {
     border-radius: 10px;
 }
+/*Guild bar new buttons removed*/
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
+    display: none;
+}
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
 
