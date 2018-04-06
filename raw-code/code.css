@@ -1,20 +1,19 @@
 /*MEMBER LIST*/
 
 /*Member list width*/
-.channel-members {
+.members-1bid1J {
     max-width: 200px;
 }
-.channel-members-wrap {
+.membersWrap-3wRngy {
     min-width: 200px;
 }
 /*Padding on rank headings*/
-.channel-members h2 {
-    padding: 0 10px;
+.membersGroup-3_dP5E {
+    padding-left: 10px;
 }
 /*Padding on users*/
-.content-3JzEqq {
-    margin: 1px 0 1px 5px;
-    padding: 4px 8px 4px 5px;
+.member-2FrNV0 {
+    margin: 1px 0 1px 3px;
 }
 /*Padding between avtar and name*/
 .avatarWrapper-3E-a5I {
