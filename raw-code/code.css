@@ -215,6 +215,15 @@
     margin-bottom: 52px;
 }
 
+/*FRIENDS LIST*/
+
+/*Friends list status fix when typing*/
+.spinner {
+    background-color: #000000aa;
+    border-radius: 50%;
+    width: 32px;
+}
+
 /*Google translate plugin button*/
 .translate-button {
 	top: 15px!important;
