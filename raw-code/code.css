@@ -115,8 +115,8 @@
 /*Improved status icon on pictures*/
 .avatar-small .status, .status-2Devx1 {
     background-color: transparent;
-    height: 32px;
-    width: 32px;
+    height: 32px!important;
+    width: 32px!important;
     border-radius: 50%;
     bottom: -10%!important;
     right: -10%!important;
