@@ -2,10 +2,14 @@
 
 /*Member list width*/
 .members-1bid1J {
+    max-width: 51px;
+	transition: max-width 0.5s;
+}
+.members-1bid1J:hover {
     max-width: 200px;
 }
 .membersWrap-3wRngy {
-    min-width: 200px;
+    min-width: unset;
 }
 /*Padding on rank headings*/
 .membersGroup-3_dP5E {
