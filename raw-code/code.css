@@ -2,7 +2,7 @@
 
 /*Member list width*/
 .members-1bid1J {
-    max-width: 52px;
+    max-width: 60px;
 	transition: max-width 0.5s;
 }
 .members-1bid1J:hover {
@@ -10,6 +10,11 @@
 }
 .membersWrap-3wRngy {
     min-width: unset;
+    width: 52px;
+    transition: width 0.5s;
+}
+.membersWrap-3wRngy:hover {
+    width: 200px;
 }
 /*members not showing fix*/
 .membersWrap-3wRngy {
@@ -32,6 +37,9 @@
 }
 /*Padding between avtar and name*/
 .avatarWrapper-3E-a5I {
+    margin-right: 11px;
+}
+.membersWrap-3wRngy:hover .avatarWrapper-3E-a5I {
     margin-right: 5px;
 }
 /*remove black circle when moving status*/
