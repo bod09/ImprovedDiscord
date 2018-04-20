@@ -11,9 +11,20 @@
 .membersWrap-3wRngy {
     min-width: unset;
 }
-/*Padding on rank headings*/
+/*members not showing fix*/
+.membersWrap-3wRngy {
+    height: 150%;
+}
+.membersWrap-3wRngy:hover {
+    height: auto;
+}
+/*Rank headings*/
 .membersGroup-3_dP5E {
     padding-left: 10px;
+    display: none;
+}
+.membersWrap-3wRngy:hover .membersGroup-3_dP5E {
+    display: block;
 }
 /*Padding on users*/
 .member-2FrNV0 {
