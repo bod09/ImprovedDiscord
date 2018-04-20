@@ -148,7 +148,11 @@
 .status-idle, .statusIdle-2AQdvu {border-color: #faa61a!important;}
 .status-dnd, .statusDnd-35xAXU {border-color: #f04747!important;}
 .status-offline, .status-invisible {border-color: #747f8d!important;}
-
+/*Improve status icon, add friend fix*/
+.private-channel-recipients-invite .friend .avatar-small .status {
+    height: 28px!important;
+    width: 28px!important;
+}
 /*Hide text before game/program name on servers and friends*/
 .activity-1PAe08 {
     font-size: 0px;
