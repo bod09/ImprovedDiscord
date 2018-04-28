@@ -1,48 +1,48 @@
 /*MEMBER LIST*/
 
 /*Member list width*/
-.members-1bid1J {
+.members-1998pB {
     max-width: 60px;
-	transition: max-width 0.5s;
+    transition: max-width 0.5s;
 }
-.members-1bid1J:hover {
+.members-1998pB:hover {
     max-width: 200px;
 }
-.membersWrap-3wRngy {
-    min-width: unset;
+.membersWrap-2h-GB4 {
+	min-width: unset;
     width: 52px;
     transition: width 0.5s;
 }
-.membersWrap-3wRngy:hover {
+.membersWrap-2h-GB4:hover {
     width: 200px;
 }
 /*members not showing fix*/
-.membersWrap-3wRngy {
+.membersWrap-2h-GB4 {
     height: 150%;
 }
-.membersWrap-3wRngy:hover {
+.membersWrap-2h-GB4:hover {
     height: auto;
 }
 /*Rank headings*/
-.membersGroup-3_dP5E {
+.membersGroup-v9BXpm {
 	height: 0px;
     padding-left: 10px;
 	padding-top: 0px;
 	box-shadow: 0px 0px 0px 1px #36393e;
     transition: height 0.5s;
 }
-.membersWrap-3wRngy:hover .membersGroup-3_dP5E {
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
     height: 20px;
 }
 /*Padding on users*/
-.member-2FrNV0 {
+.member-3W1lQa {
     margin: 1px 0 1px 3px;
 }
 /*Padding between avtar and name*/
-.avatarWrapper-3E-a5I {
+.avatarWrapper-3B0ndJ {
     margin-right: 11px;
 }
-.membersWrap-3wRngy:hover .avatarWrapper-3E-a5I {
+.membersWrap-2h-GB4:hover .avatarWrapper-3B0ndJ {
     margin-right: 5px;
 }
 /*remove black circle when moving status*/
