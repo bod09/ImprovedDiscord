@@ -217,7 +217,7 @@
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
 
-.container-iksrDt {
+.container-2Thooq {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -227,17 +227,17 @@
 	background: #202225;
     transition: width 0.5s;
 }
-.container-iksrDt:hover {
+.container-2Thooq:hover {
     width: 265px;
 	background: #2a2c31;
 }
-.container-iksrDt .avatar-small {
+.container-2Thooq .avatar-small {
     margin: 0 25px 0 0;
 }
-.button-1aU9q1 {
+.button-2b6hmh {
     width: 0;
 }
-.container-iksrDt:hover .button-1aU9q1 {
+.container-2Thooq:hover .button-2b6hmh {
     width: 32px;
 }
 /*guild wrapper fix*/
