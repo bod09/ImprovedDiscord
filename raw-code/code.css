@@ -46,7 +46,7 @@
     margin-right: 5px;
 }
 /*remove black circle when moving status*/
-.mask-2vyqAW {
+.mask-3OgeRz {
     -webkit-mask: none;
     mask: none;
 }
@@ -63,7 +63,7 @@
     margin-right: 10px;
 }
 /*Imbeded videos padding*/
-.embedInner-t4ag7g {
+.embedInner-1-fpTo {
     padding: 5px 5px;
 }
 /* Chat Track Piece */
@@ -87,35 +87,35 @@
 
 .chat form {
     margin: 0px;
-	box-shadow: none;
+    box-shadow: none;
 }
-.channelTextArea-os01xC {
+.channelTextArea-rNsIhG {
     margin: 0px;
 }
-.innerNoAutocomplete-kaUXJZ {
+.innerNoAutocomplete-1WpcVO {
     border-radius: 0px;
 }
 .theme-dark .chat form {
     box-shadow: none;
 }
 /*stuff in typing bar re aligning*/
-.attachButton-Di6YUh {
+.attachButton-1UjEWA {
     height: 32px;
 }
-.emojiButton-38mF6t {
+.emojiButton-2wRZts {
     top: 15px;
 }
-.textAreaEnabled-2vOfh8 {
+.textAreaEnabled-3vQ5WZ {
     padding: 14px 38px 10px 0;
 }
 /*typing*/
-.theme-dark .typing-3eiiL_ {
+.theme-dark .typing-2GQL18 {
     background-color: #42454a;
 }
-.theme-light .typing-3eiiL_ {
+.theme-light .typing-2GQL18 {
     background-color: #e5e5e5;
 }
-.typing-3eiiL_ {
+.typing-2GQL18 {
     bottom: 75%;
     left: 50%;
     width: auto;
@@ -123,23 +123,23 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 5px 5px 0 0;
-	opacity: .80;
+    opacity: .80;
 }
-.typing-3eiiL_:hover {
+.typing-2GQL18:hover {
     opacity: 1;
 }
 
 /*SERVER CHANNELS*/
 
 /*Server channels width (default 240)*/
-.channels-3g2vYe {
+.channels-Ie2l6A {
     width: 230px;
 }
 
 /*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
 
 /*Improved status icon on pictures*/
-.avatar-small .status, .status-2Devx1 {
+.avatar-small .status, .status-2s6iDp {
     background-color: transparent;
     height: 32px!important;
     width: 32px!important;
@@ -147,10 +147,10 @@
     bottom: -10%!important;
     right: -10%!important;
 }
-.status-online, .statusOnline-1Mp2_H {border-color: #43b581!important;}
-.status-idle, .statusIdle-2AQdvu {border-color: #faa61a!important;}
-.status-dnd, .statusDnd-35xAXU {border-color: #f04747!important;}
-.status-offline, .status-invisible {border-color: #747f8d!important;}
+.status-online, .statusOnline-1FlpW_ {border-color: #43b581!important;}
+.status-idle, .statusIdle-1XoSCz {border-color: #faa61a!important;}
+.status-dnd, .statusDnd-2DDKST {border-color: #f04747!important;}
+.status-offline, .statusInvisible-23hZKw {border-color: #747f8d!important;}
 /*Improve status icon, add friend fix*/
 .private-channel-recipients-invite .friend .avatar-small .status {
     height: 28px!important;
