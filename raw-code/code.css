@@ -189,6 +189,10 @@
 .guilds-wrapper .guild-separator {
     width: 40px;
 }
+.guilds-wrapper .guilds .guild .guild-inner a {
+    height: 40px;
+    width: 40px;
+}
 .iconSizeLarge-161qtT {
     height: 40px;
     width: 40px;
