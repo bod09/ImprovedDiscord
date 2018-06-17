@@ -189,14 +189,7 @@
 .guilds-wrapper .guild-separator {
     width: 40px;
 }
-.guilds-wrapper .guilds .guild .avatar-small {
-    background-size: 40px 40px;
-}
-.guilds-wrapper .guilds .guild .guild-inner a {
-    height: 40px;
-    width: 40px;
-}
-.guilds-wrapper .guilds .friends-icon {
+.iconSizeLarge-161qtT {
     height: 40px;
     width: 40px;
 }
