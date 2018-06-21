@@ -243,6 +243,10 @@
 .container-2Thooq:hover .button-2b6hmh {
     width: 32px;
 }
+/*status change fix*/
+.container-2Thooq:hover .avatar-small .status {
+    visibility: hidden;
+}
 /*guild wrapper fix*/
 .guilds-wrapper .guilds {
     margin-bottom: 52px;
