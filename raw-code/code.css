@@ -147,10 +147,10 @@
     bottom: -10%!important;
     right: -10%!important;
 }
-.status-online, .statusOnline-1FlpW_ {border-color: #43b581!important;}
-.status-idle, .statusIdle-1XoSCz {border-color: #faa61a!important;}
-.status-dnd, .statusDnd-2DDKST {border-color: #f04747!important;}
-.status-offline, .statusInvisible-23hZKw {border-color: #747f8d!important;}
+.online-2S838R {border-color: #43b581!important;}
+.idle-3DEnRT {border-color: #faa61a!important;}
+.dnd-1_xrcq {border-color: #f04747!important;}
+.invisible-1kp8Z0 {border-color: #747f8d!important;}
 /*Improve status icon, add friend fix*/
 .private-channel-recipients-invite .friend .avatar-small .status {
     height: 28px!important;
@@ -183,7 +183,13 @@
 .guilds-wrapper {
     width: 60px;
 }
-.guilds-wrapper .guilds .friends-online {
+.guilds-wrapper .guilds .friends-icon {
+    height: 40px;
+    width: 40px;
+}
+.guilds-wrapper .guilds .guild .avatar-small {
+    background-size: 40px 40px;
+    height: 40px;
     width: 40px;
 }
 .guilds-wrapper .guild-separator {
