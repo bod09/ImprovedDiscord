@@ -86,27 +86,25 @@
 /*SERVER CHAT TYPING BAR*/
 
 .chat form {
-    margin: 0px;
+    margin: 0;
     box-shadow: none;
 }
 .channelTextArea-rNsIhG {
-    margin: 0px;
+    margin: 0;
 }
 .innerNoAutocomplete-1WpcVO {
-    border-radius: 0px;
+    border-radius: 0;
+    min-height: 52px;
 }
 .theme-dark .chat form {
     box-shadow: none;
 }
 /*stuff in typing bar re aligning*/
-.attachButton-1UjEWA {
-    height: 32px;
-}
 .emojiButton-2wRZts {
     top: 15px;
 }
-.textAreaEnabled-3vQ5WZ {
-    padding: 14px 38px 10px 0;
+.textArea-2Spzkt {
+    padding: 13px 38px 10px 10px;
 }
 /*typing*/
 .theme-dark .typing-2GQL18 {
