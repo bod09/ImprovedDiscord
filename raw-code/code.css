@@ -177,27 +177,15 @@
 
 /*GUILD BAR*/
 
-/*Guild bar size*/
-.guilds-wrapper {
+.guildsWrapper-5TJh6A {
     width: 60px;
+    margin-bottom: 52px;
 }
-.guilds-wrapper .guilds .friends-icon {
+.guild-1EfMGQ {
     height: 40px;
     width: 40px;
 }
-.guilds-wrapper .guilds .friends-online {
-    font-size: 9px;
-    width: 40px;
-}
-.guilds-wrapper .guilds .guild .avatar-small {
-    background-size: 40px 40px;
-    height: 40px;
-    width: 40px;
-}
-.guilds-wrapper .guild-separator {
-    width: 40px;
-}
-.guilds-wrapper .guilds .guild .guild-inner a {
+.guild-1EfMGQ .guildInner-3DSoA4 a {
     height: 40px;
     width: 40px;
 }
@@ -205,19 +193,15 @@
     height: 40px;
     width: 40px;
 }
-.guilds-wrapper .guilds .guild, .guilds-wrapper .guilds-error {
-    height: 40px;
+.friendsOnline-_wi_fM {
     width: 40px;
 }
-.guilds-wrapper .guilds-error {
-    line-height: 37px;
+.guildSeparator-1X4GQ1 {
+    width: 40px;
 }
-.badge {
+/*Notification icons*/
+.wrapper-232cHJ {
     border-radius: 10px;
-}
-/*Guild bar new buttons removed*/
-.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
-    display: none;
 }
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
@@ -253,10 +237,6 @@
     right: -22px!important;
     border: 5px solid #2f3136;
     transition: 0.5s;
-}
-/*guild wrapper fix*/
-.guilds-wrapper .guilds {
-    margin-bottom: 52px;
 }
 
 /*FRIENDS LIST*/
