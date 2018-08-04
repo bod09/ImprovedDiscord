@@ -224,10 +224,10 @@
     margin: 0 25px 0 0;
 }
 .button-2b6hmh {
-    width: 0;
+	visibility: hidden;
 }
-.container-2Thooq:hover .button-2b6hmh {
-    width: 32px;
+.container-2Thooq:hover .button-2b6hmh{
+	visibility: unset;
 }
 /*status change fix*/
 .container-2Thooq:hover .avatar-small .status {
