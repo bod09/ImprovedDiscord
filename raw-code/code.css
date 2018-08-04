@@ -85,19 +85,19 @@
 
 /*SERVER CHAT TYPING BAR*/
 
-.chat form {
-    margin: 0;
-    box-shadow: none;
+.chat-3bRxxu form {
+    margin: unset;
 }
 .channelTextArea-rNsIhG {
+    padding: unset;
+}
+.channelTextArea-rNsIhG {
+    border-top: unset!important;
     margin: 0;
 }
 .innerNoAutocomplete-1WpcVO {
     border-radius: 0;
     min-height: 52px;
-}
-.theme-dark .chat form {
-    box-shadow: none;
 }
 /*stuff in typing bar re aligning*/
 .emojiButton-2wRZts {
