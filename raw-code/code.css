@@ -66,22 +66,6 @@
 .embedInner-1-fpTo {
     padding: 5px 5px;
 }
-/* Chat Track Piece */
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
-    visibility: hidden;
-}
-/* Chat Scroller Thumb */
-.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
-    visibility: hidden;
-}
-/* Chat Track Piece */
-.theme-dark:hover .friends-table:hover .scroller-wrap:hover ::-webkit-scrollbar-track-piece, .theme-dark:hover .messages-wrapper:hover .scroller-wrap:hover ::-webkit-scrollbar-track-piece {
-    visibility: visible;
-}
-/* Chat Scroller Thumb */
-.theme-dark:hover .friends-table:hover .scroller-wrap:hover ::-webkit-scrollbar-thumb, .theme-dark:hover .messages-wrapper:hover .scroller-wrap:hover ::-webkit-scrollbar-thumb {
-    visibility: visible;
-}
 
 /*SERVER CHAT TYPING BAR*/
 
