@@ -1,11 +1,19 @@
 /*bodpod*/
 .avatar-small[style*='131383022653145089'],
-.avatar-large[style*='131383022653145089'],
-.image-EVRGPw[style*='131383022653145089'],
-.avatarDefault-3jtQoc[style*='131383022653145089'],
-.avatarSpeaking-3teDH6[style*='131383022653145089'] {
-    background-image:url(http://pa1.narvii.com/6588/cab785b4909df8480f5f6517c017634f1feb3d32_128.gif)!important;
+.large-3ChYtB[style*='131383022653145089'],
+.small-5Os1Bb[style*='131383022653145089'],
+.mask-3OgeRz[style*='131383022653145089'],
+.smallAvatar-1MzqAa[style*='131383022653145089'] {
+    background-image:url(https://i.imgur.com/7XnGgQ1.png)!important;
 }
+.container-2Thooq:hover .avatar-small[style*='131383022653145089'],
+.containerCozyBounded-1rKFAn:hover .large-3ChYtB[style*='131383022653145089'],
+.content-OzHfo4:hover .small-5Os1Bb[style*='131383022653145089'],
+.userPopout-3XzG_A:hover .mask-3OgeRz[style*='131383022653145089'],
+.inner-1JeGVc:hover .mask-3OgeRz[style*='131383022653145089'],
+.containerDefault-1ZnADq:hover .smallAvatar-1MzqAa[style*='131383022653145089'] {
+    background-image:url(https://i.imgur.com/J77w6nf.gif)!important;
+} 
 
 /*swaglum*//*
 .avatar-small[style*='137672251104296960'],
@@ -23,4 +31,4 @@
 .avatarDefault-3jtQoc[style*='178251583442780160'],
 .avatarSpeaking-3teDH6[style*='178251583442780160'] {
     background-image:url(http://pa1.narvii.com/6316/178957045d954bf9ecfaf60444dc3b0e06f280fc_128.gif)!important;
-}*/
+}
