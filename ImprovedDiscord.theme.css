@@ -1,7 +1,5 @@
-//META{"name":"ImprovedDiscord","description":"Looks normal but isn't","author":"bodpod","version":"1.1"}*//
+//META{"name":"ImprovedDiscord","Discord but less cluttered and more features","author":"bodpod","version":"1.1"}*//
 
 @import url(https://rawgit.com/bod09/ImprovedDiscord/master/raw-code/code.css);
 
-/*Enable this if you want the theme to give some users gif avatars (This feature uses quite a bit of CPU power).*/
-
-/*@import url(https://rawgit.com/bod09/ImprovedDiscord/master/raw-code/gif-avatars.css);*/
+@import url(https://rawgit.com/bod09/ImprovedDiscord/master/raw-code/gif-avatars.css);
