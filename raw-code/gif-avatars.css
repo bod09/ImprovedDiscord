@@ -6,14 +6,33 @@
 .smallAvatar-1MzqAa[style*='131383022653145089'] {
     background-image:url(https://i.imgur.com/7XnGgQ1.png)!important;
 }
+.scroller-2FKFPG:hover .avatar-small[style*='131383022653145089'],
 .container-2Thooq:hover .avatar-small[style*='131383022653145089'],
 .containerCozyBounded-1rKFAn:hover .large-3ChYtB[style*='131383022653145089'],
 .content-OzHfo4:hover .small-5Os1Bb[style*='131383022653145089'],
 .userPopout-3XzG_A:hover .mask-3OgeRz[style*='131383022653145089'],
 .inner-1JeGVc:hover .mask-3OgeRz[style*='131383022653145089'],
-.containerDefault-1ZnADq:hover .smallAvatar-1MzqAa[style*='131383022653145089'] {
+.scroller-2FKFPG:hover .smallAvatar-1MzqAa[style*='131383022653145089'] {
     background-image:url(https://i.imgur.com/J77w6nf.gif)!important;
 } 
+
+/*ShadowHunter*/
+.avatar-small[style*='178251583442780160'],
+.large-3ChYtB[style*='178251583442780160'],
+.small-5Os1Bb[style*='178251583442780160'],
+.mask-3OgeRz[style*='178251583442780160'],
+.smallAvatar-1MzqAa[style*='178251583442780160'] {
+    background-image:url(https://i.imgur.com/dTKlSPF.png)!important;
+}
+.scroller-2FKFPG:hover .avatar-small[style*='178251583442780160'],
+.container-2Thooq:hover .avatar-small[style*='178251583442780160'],
+.containerCozyBounded-1rKFAn:hover .large-3ChYtB[style*='178251583442780160'],
+.content-OzHfo4:hover .small-5Os1Bb[style*='178251583442780160'],
+.userPopout-3XzG_A:hover .mask-3OgeRz[style*='178251583442780160'],
+.inner-1JeGVc:hover .mask-3OgeRz[style*='178251583442780160'],
+.scroller-2FKFPG:hover .smallAvatar-1MzqAa[style*='178251583442780160'] {
+    background-image:url(https://i.imgur.com/oTJeLc4.gif)!important;
+}
 
 /*swaglum*//*
 .avatar-small[style*='137672251104296960'],
@@ -22,13 +41,4 @@
 .avatarDefault-3jtQoc[style*='137672251104296960'],
 .avatarSpeaking-3teDH6[style*='137672251104296960'] {
     background-image:url(https://i.imgur.com/ujRaQLJ.gif)!important;
-}
-
-/*ShadowHunter*//*
-.avatar-small[style*='178251583442780160'],
-.avatar-large[style*='178251583442780160'],
-.image-EVRGPw[style*='178251583442780160'],
-.avatarDefault-3jtQoc[style*='178251583442780160'],
-.avatarSpeaking-3teDH6[style*='178251583442780160'] {
-    background-image:url(http://pa1.narvii.com/6316/178957045d954bf9ecfaf60444dc3b0e06f280fc_128.gif)!important;
 }
