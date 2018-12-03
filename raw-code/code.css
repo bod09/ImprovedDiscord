@@ -246,6 +246,15 @@
     background-image: linear-gradient(to right,#b45af459 1%,#fff0 99%);
     background-color: #36393f;
 }
+/*Status fix from friends list change*/
+.titleText-3X-zRE .online-2S838R.status-oxiHuE.large-3ChYtB.status-3fQvEa {
+    height: 10px;
+    position: relative;
+    width: 10px;
+    background-color: #43b581;
+    border-radius: 50%;
+    border: none;
+}
 
 /*FRIENDS LIST*/
 
