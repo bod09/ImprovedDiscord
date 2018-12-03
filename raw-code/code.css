@@ -229,9 +229,15 @@
     transition: 0.5s;
 }
 
-/*FRIENDS LIST*/
+/*DM's*/
 
-/*Friend hover and select*/
+/*User list status fix when typing*/
+.spinner {
+    background-color: #000000aa;
+    border-radius: 50%;
+    width: 32px;
+}
+/*Purple highlight*/
 .channel-2QD9_O.selected-1HYmZZ a {
     background-color: #fff0!important;
 }
@@ -240,16 +246,87 @@
     background-image: linear-gradient(to right,#b45af459 1%,#fff0 99%);
     background-color: #36393f;
 }
-/*Friends list status fix when typing*/
-.spinner {
-    background-color: #000000aa;
-    border-radius: 50%;
-    width: 32px;
+
+/*FRIENDS LIST*/
+
+/*Remove info bar at top*/
+.theme-dark #friends .friends-table .friends-table-header {
+    display: none;
 }
-
-/*DISCORD PLUGINS*/
-
-/*Google translate plugin button*/
-.translate-button {
-	top: 15px!important;
+#friends .friends-table {
+    margin-top: unset;
+}
+/*Positioning*/
+#app-mount #friends .friends-table .friends-row .friends-column {
+    position: absolute;
+    backface-visibility: hidden;
+}
+#friends .friends-table .friends-row .friends-column+.friends-column {
+    margin: 5px;
+}
+/*Removed borders & status text*/
+#app-mount #friends .friends-table .friends-row+.friends-row {
+    border-top: none;
+}
+#friends .friends-table .friends-row .friends-column-status .status-text,.friends-action.friends-action-remove {
+    display: none;
+}
+/*Main container*/
+#app-mount #friends .friends-table .friends-row {
+    background: rgba(79,84,92,.3);
+    border-color: transparent;
+    margin: 5px;
+    height: 70px!important;
+    width: 305px;
+    display: inline-block;
+    position: relative;
+    padding: unset;
+    border-radius: 3px;
+}
+/*Action positioning*/
+#friends .friends-table .friends-row:hover .friends-column-actions {
+    padding-right: unset;
+    right: 0;
+    top: 12px;
+}
+/*Guild Positioning*/
+#friends .friends-table .friends-column-guilds {
+    max-width: 245px;
+    width: auto;
+    margin: 5px 5px 5px 50px!important;
+    bottom: 0;
+    right: 0;
+}
+/*User Picture*/
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    top: 8px;
+    left: 5px;
+}
+/*User Name*/
+#friends .friends-table .friends-row .discord-tag {
+    width: 250px;
+    margin: 0 5px 0 50px;
+    position: absolute;
+    display: block;
+    text-align: center;
+}
+/*User Status*/
+#friends .friends-table .friends-row .friends-column-status {
+    color: hsla(0,0%,100%,.4);
+    width: 305px;
+    height: 70px;
+    margin: unset!important;
+    border-radius: 3px;
+}
+.status-3fQvEa {
+    background-color: transparent;
+    height: 66px;
+    width: 301px;
+    border-radius: 3px;
+}
+.online-2S838R,.idle-3DEnRT,.dnd-1_xrcq {
+    border: 2px solid #2f3136;
 }
