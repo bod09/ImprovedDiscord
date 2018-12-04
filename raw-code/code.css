@@ -246,15 +246,6 @@
     background-image: linear-gradient(to right,#b45af459 1%,#fff0 99%);
     background-color: #36393f;
 }
-/*Status fix from friends list change*/
-.titleText-3X-zRE .online-2S838R.status-oxiHuE.large-3ChYtB.status-3fQvEa {
-    height: 10px;
-    position: relative;
-    width: 10px;
-    background-color: #43b581;
-    border-radius: 50%;
-    border: none;
-}
 
 /*FRIENDS LIST*/
 
@@ -297,9 +288,11 @@
     padding-right: unset;
     right: 0;
     top: 12px;
+    margin: 5px 5px 5px 0;
 }
 /*Guild Positioning*/
 #friends .friends-table .friends-column-guilds {
+	display: flex!important;
     max-width: 245px;
     width: auto;
     margin: 5px 5px 5px 50px!important;
@@ -330,12 +323,12 @@
     margin: unset!important;
     border-radius: 3px;
 }
-.status-3fQvEa {
+#friends .status-3fQvEa {
     background-color: transparent;
     height: 66px;
     width: 301px;
     border-radius: 3px;
 }
-.online-2S838R,.idle-3DEnRT,.dnd-1_xrcq {
+#friends .online-2S838R,#friends .idle-3DEnRT,#friends .dnd-1_xrcq {
     border: 2px solid #2f3136;
 }
