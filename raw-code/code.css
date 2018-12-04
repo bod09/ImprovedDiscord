@@ -133,6 +133,13 @@
     height: 28px!important;
     width: 28px!important;
 }
+/*Fixes avatar placement in friends list*/
+.avatar-small {
+    position: unset;
+}
+.wrapper-2F3Zv8 {
+    position: relative!important;
+}
 /*Hide text before game/program name on servers and friends*/
 .activity-1IYsbk {
     font-size: 0px;
@@ -264,7 +271,7 @@
     backface-visibility: hidden;
 }
 #friends .friends-table .friends-row .friends-column+.friends-column {
-    margin: 5px;
+    margin: 7px;
 }
 /*Removed borders & status text*/
 #app-mount #friends .friends-table .friends-row+.friends-row {
@@ -285,35 +292,52 @@
     padding: unset;
     border-radius: 3px;
 }
-/*Action positioning*/
+//*Action positioning*/
 #friends .friends-table .friends-row:hover .friends-column-actions {
     padding-right: unset;
     right: 0;
-    top: 12px;
-    margin: 5px 5px 5px 0;
+    margin: 17px 7px 17px 5px!important;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action+div {
+    margin-left: 5px;
+}
+#friends .friends-table .friends-row .friends-column-actions {
+    padding-right: unset;
+    right: -77px;
+    transition: right 0.2s;
+    margin: 17px 0px 17px 0px!important;
 }
 /*Guild Positioning*/
 #friends .friends-table .friends-column-guilds {
-	display: flex!important;
-    max-width: 245px;
+    display: flex!important;
+    max-width: 248px;
     width: auto;
-    margin: 5px 5px 5px 50px!important;
+    margin: 5px 7px 7px 50px!important;
     bottom: 0;
     right: 0;
+    transition: right 0.2s;
 }
-/*User Picture*/
+#friends .friends-table .friends-row:hover .friends-column-guilds {
+    max-width: 164px;
+    right: 84px;
+}
+/*User Picture & User Name*/
+#friends .friends-table .friends-row .friends-column-name {
+    width: 305px;
+    height: 70px;
+}
 #friends .friends-table .friends-row .friends-column-name .avatar-small {
     background-size: 40px 40px;
     width: 40px;
     height: 40px;
-    top: 8px;
-    left: 5px;
+    left: 7px;
 }
-/*User Name*/
+
 #friends .friends-table .friends-row .discord-tag {
-    width: 250px;
-    margin: 0 5px 0 50px;
+    width: 248px;
+    margin: 11px 7px 0 50px;
     position: absolute;
+    top: 0;
     display: block;
     text-align: center;
 }
