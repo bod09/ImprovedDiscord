@@ -4,16 +4,16 @@
 .membersWrap-2h-GB4 {
 	min-width: unset;
     width: 52px;
-	height: 1080px;
+    height: 1080px;
     transition: width 0.5s;
 }
 .membersWrap-2h-GB4:hover {
     width: 200px;
-	height: auto;
+    height: auto;
 }
 .members-1998pB {
     max-width: 60px;
-	transition: max-width 0.5s;
+    transition: max-width 0.5s;
 }
 .members-1998pB:hover {
     max-width: 200px;
@@ -178,7 +178,7 @@
 .guild-1EfMGQ .avatar-small {
     height: 40px;
     width: 40px;
-	background-size: 40px 40px;
+    background-size: 40px 40px;
 }
 .iconSizeLarge-161qtT {
     height: 40px;
@@ -238,7 +238,7 @@
 
 /*DM's*/
 
-/*User list status fix when typing*/
+/*DM's list status fix when typing*/
 .spinner {
     background-color: #000000aa;
     border-radius: 50%;
@@ -249,11 +249,11 @@
     background-color: #fff0!important;
 }
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
-	box-shadow: 6px 0 0 4px #2f3136,-5px 0 0 -0 #b45af4;
-	background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
+    box-shadow: 6px 0 0 4px #2f3136,-5px 0 0 -0 #b45af4;
+    background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
 	background: -moz-linear-gradient(to right,#b45af459 1%,#fff0 99%);
 	background: -webkit-linear-gradient(to right,#b45af459 1%,#fff0 99%);
-	background-color: #36393f;
+    background-color: #36393f;
 }
 
 /*FRIENDS LIST*/
@@ -292,20 +292,20 @@
     padding: unset;
     border-radius: 3px;
 }
-//*Action positioning*/
+/*Action positioning*/
 #friends .friends-table .friends-row:hover .friends-column-actions {
     padding-right: unset;
     right: 0;
     margin: 17px 7px 17px 5px!important;
-}
-#friends .friends-table .friends-row .friends-column-actions .friends-action+div {
-    margin-left: 5px;
 }
 #friends .friends-table .friends-row .friends-column-actions {
     padding-right: unset;
     right: -77px;
     transition: right 0.2s;
     margin: 17px 0px 17px 0px!important;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action+div {
+    margin-left: 5px;
 }
 /*Guild Positioning*/
 #friends .friends-table .friends-column-guilds {
@@ -358,3 +358,7 @@
 #friends .online-2S838R,#friends .idle-3DEnRT,#friends .dnd-1_xrcq {
     border: 2px solid #2f3136;
 }
+
+/*Google translate plugin button*/
+.translate-button {
+	top: 15px!important;
