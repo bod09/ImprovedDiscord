@@ -242,9 +242,11 @@
     background-color: #fff0!important;
 }
 .channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
-    box-shadow: 6px 0 0 4px #2f3136,-5px 0 0 -0 #b45af4;
-    background-image: linear-gradient(to right,#b45af459 1%,#fff0 99%);
-    background-color: #36393f;
+	box-shadow: 6px 0 0 4px #2f3136,-5px 0 0 -0 #b45af4;
+	background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
+	background: -moz-linear-gradient(to right,#b45af459 1%,#fff0 99%);
+	background: -webkit-linear-gradient(to right,#b45af459 1%,#fff0 99%);
+	background-color: #36393f;
 }
 
 /*FRIENDS LIST*/
