@@ -284,7 +284,7 @@
 #app-mount #friends .friends-table .friends-row {
     background: rgba(79,84,92,.3);
     border-color: transparent;
-    margin: 5px;
+    margin: 8px 0 0 10px;
     height: 70px!important;
     width: 305px;
     display: inline-block;
@@ -357,6 +357,9 @@
     text-align: center;
 }
 /*User Status*/
+#friends .friends-table .friends-row .friends-column-status .status {
+    margin-right: unset;
+}
 #friends .friends-table .friends-row .friends-column-status {
     color: hsla(0,0%,100%,.4);
     width: 305px;
