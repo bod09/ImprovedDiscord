@@ -296,16 +296,31 @@
 #friends .friends-table .friends-row:hover .friends-column-actions {
     padding-right: unset;
     right: 0;
-    margin: 17px 7px 17px 5px!important;
+    margin: 2px 2px 2px 5px!important;
 }
 #friends .friends-table .friends-row .friends-column-actions {
     padding-right: unset;
-    right: -77px;
+    right: -33px;
     transition: right 0.2s;
-    margin: 17px 0px 17px 0px!important;
+    margin: 2px 0px 2px 0px!important;
+    width: 33px;
+    height: 66px;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action {
+    border-radius: unset;
+    height: 33px;
+    width: 33px;
+}
+#friends .friends-action.friends-action-video-call {
+    top: 0;
+    position: absolute;
+}
+#friends .friends-action.friends-action-voice-call {
+    bottom: 0;
+    position: absolute;
 }
 #friends .friends-table .friends-row .friends-column-actions .friends-action+div {
-    margin-left: 5px;
+    margin-left: unset;
 }
 /*Guild Positioning*/
 #friends .friends-table .friends-column-guilds {
@@ -319,7 +334,7 @@
 }
 #friends .friends-table .friends-row:hover .friends-column-guilds {
     max-width: 164px;
-    right: 84px;
+    right: 35px;
 }
 /*User Picture & User Name*/
 #friends .friends-table .friends-row .friends-column-name {
