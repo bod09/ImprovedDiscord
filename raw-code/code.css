@@ -116,11 +116,11 @@
 /*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
 
 /*Improved status icon on pictures*/
-.avatar-small .status, .status-2s6iDp {
+.avatar-small .status, .status-oxiHuE {
     background-color: transparent;
     height: 32px!important;
     width: 32px!important;
-    border-radius: 50%;
+    border-radius: 50%!important;
     bottom: -10%!important;
     right: -10%!important;
 }
@@ -217,7 +217,7 @@
     width: 265px;
 	background: #2a2c31;
 }
-.container-2Thooq .avatar-small {
+.container-2Thooq .avatarSmall-3ACRaI {
     margin: 0 25px 0 0;
 }
 .button-2b6hmh {
@@ -227,7 +227,7 @@
 	display: flex;
 }
 /*status change fix*/
-.container-2Thooq:hover .avatar-small .status {
+.container-2Thooq:hover .avatarSmall-3ACRaI .status-2zcSVk {
     height: 0!important;
     width: 0!important;
     bottom: 17px!important;
