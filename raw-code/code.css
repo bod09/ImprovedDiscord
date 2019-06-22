@@ -163,42 +163,34 @@
 
 /*GUILD BAR*/
 
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
     width: 60px;
-    margin-bottom: 52px;
+    margin-bottom: 52px;   
 }
-.guild-1EfMGQ {
+.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
+    width: 60px;
+}
+.scrollerWrap-1IAIlv {
+    width: 78px;
+}
+.listItem-2P_4kh {
+    width: 60px;
+}
+.wrapper-sa6paO {
     height: 40px;
-    width: 40px;
 }
-.guild-1EfMGQ .guildInner-3DSoA4 a {
+.svg-1X37T1, .wrapper-25eVIn {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40px;
     height: 40px;
-    width: 40px;
 }
-.guild-1EfMGQ .avatar-small {
-    height: 40px;
-    width: 40px;
-    background-size: 40px 40px;
-}
-.iconSizeLarge-161qtT {
-    height: 40px;
-    width: 40px;
-}
-.friendsOnline-_wi_fM {
-    width: 40px;
-}
-.guildSeparator-1X4GQ1 {
-    width: 40px;
-}
-/*Server down error*/
-.guildsError-3cFMtY {
-    height: 40px;
-    line-height: 36px;
-    width: 40px;
-}
-/*Notification icons*/
-.wrapper-232cHJ {
-    border-radius: 10px;
+.base-PmTxvP {
+    min-width: 15px;
+    min-height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 26px;
 }
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
@@ -220,10 +212,10 @@
 .container-2Thooq .avatarSmall-3ACRaI {
     margin: 0 25px 0 0;
 }
-.button-2b6hmh {
+.button-s03oPN {
 	display: none;
 }
-.container-2Thooq:hover .button-2b6hmh{
+.container-2Thooq:hover .button-s03oPN{
 	display: flex;
 }
 /*status change fix*/
