@@ -212,10 +212,10 @@
 .container-2Thooq .avatarSmall-3ACRaI {
     margin: 0 25px 0 0;
 }
-button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
+button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
 }
-.container-2Thooq:hover button[aria-label="Unmute"], .container-2Thooq:hover button[aria-label="Deafen"], .container-2Thooq:hover button[aria-label="User Settings"]{
+.container-2Thooq:hover button[aria-label="Mute"], .container-2Thooq:hover button[aria-label="Unmute"], .container-2Thooq:hover button[aria-label="Deafen"], .container-2Thooq:hover button[aria-label="User Settings"]{
 	display: flex;
 }
 /*status change fix*/
