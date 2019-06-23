@@ -215,13 +215,7 @@
 button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
 }
-.container-2Thooq:hover button[aria-label="Unmute"]{
-	display: flex;
-}
-.container-2Thooq:hover button[aria-label="Deafen"]{
-	display: flex;
-}
-.container-2Thooq:hover button[aria-label="User Settings"]{
+.container-2Thooq:hover button[aria-label="Unmute"], .container-2Thooq:hover button[aria-label="Deafen"], .container-2Thooq:hover button[aria-label="User Settings"]{
 	display: flex;
 }
 /*status change fix*/
