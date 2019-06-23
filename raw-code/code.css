@@ -212,10 +212,16 @@
 .container-2Thooq .avatarSmall-3ACRaI {
     margin: 0 25px 0 0;
 }
-.button-s03oPN {
+button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
 }
-.container-2Thooq:hover .button-s03oPN{
+.container-2Thooq:hover button[aria-label="Unmute"]{
+	display: flex;
+}
+.container-2Thooq:hover button[aria-label="Deafen"]{
+	display: flex;
+}
+.container-2Thooq:hover button[aria-label="User Settings"]{
 	display: flex;
 }
 /*status change fix*/
