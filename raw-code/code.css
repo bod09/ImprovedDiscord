@@ -195,7 +195,7 @@
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
 
-.container-2Thooq {
+.container-3baos1 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -205,21 +205,21 @@
 	background: #202225;
     transition: width 0.5s;
 }
-.container-2Thooq:hover {
+.container-3baos1:hover {
     width: 265px;
 	background: #2a2c31;
 }
-.container-2Thooq .avatarSmall-3ACRaI {
+.container-3baos1 .avatarSmall-3ACRaI {
     margin: 0 25px 0 0;
 }
 button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
 }
-.container-2Thooq:hover button[aria-label="Mute"], .container-2Thooq:hover button[aria-label="Unmute"], .container-2Thooq:hover button[aria-label="Deafen"], .container-2Thooq:hover button[aria-label="User Settings"]{
+.container-3baos1:hover button[aria-label="Mute"], .container-3baos1:hover button[aria-label="Unmute"], .container-3baos1:hover button[aria-label="Deafen"], .container-3baos1:hover button[aria-label="User Settings"] {
 	display: flex;
 }
 /*status change fix*/
-.container-2Thooq:hover .avatarSmall-3ACRaI .status-2zcSVk {
+.container-3baos1:hover .avatarSmall-3ACRaI .status-2zcSVk {
     height: 0!important;
     width: 0!important;
     bottom: 17px!important;
