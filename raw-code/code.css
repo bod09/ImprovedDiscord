@@ -150,7 +150,7 @@
 .activityText-sLG0UL {
     height: 13px;
 }
-.private-channels .channel .channel-activity-text {
+.private-channels .channel .channel-activity-text {chrome://vivaldi-webui/startpage?section=Speed-dials&activeSpeedDialIndex=0&background-color=#2e2e2e
     height: 10px;
 }
 
@@ -159,23 +159,25 @@
     margin-bottom: 52px;   
 }
 
-/*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
-.container-3baos1 {
+/*USER AREA*/
+section[aria-label="User area"] {
     position: fixed;
+    background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
     bottom: 0;
     left: 0;
+}
+.container-3baos1 {
     width: 32px;
 	padding: 0 20px;
 	margin-bottom: 0;
-	background: #202225;
     transition: width 0.5s;
 }
 .container-3baos1:hover {
-    width: 272px;
-	background: #2a2c31;
+    width: 284px;
+	padding-right: 8px;
 }
 .avatarWrapper-2yR4wp {
-    margin-right: 20px;
+    margin-right: 28px;
 }
 button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
@@ -183,24 +185,9 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 .container-3baos1:hover button[aria-label="Mute"], .container-3baos1:hover button[aria-label="Unmute"], .container-3baos1:hover button[aria-label="Deafen"], .container-3baos1:hover button[aria-label="User Settings"] {
 	display: flex;
 }
-/*status change fix*/
-.container-3baos1:hover .avatarSmall-3ACRaI .status-2zcSVk {
-    height: 0!important;
-    width: 0!important;
-    bottom: 17px!important;
-    right: -22px!important;
-    border: 5px solid #2f3136;
-    transition: 0.5s;
-}
 
 /*DM's*/
 
-/*DM's list status fix when typing*/
-.spinner {
-    background-color: #000000aa;
-    border-radius: 50%;
-    width: 32px;
-}
 /*Purple highlight*/
 .channel-2QD9_O.selected-1HYmZZ a {
     background-color: #fff0!important;
