@@ -106,13 +106,6 @@
     opacity: 1;
 }
 
-/*SERVER CHANNELS*/
-
-/*Server channels width (default 240)*/
-.channels-Ie2l6A {
-    width: 230px;
-}
-
 /*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
 
 /*Improved status icon on pictures*/
@@ -167,23 +160,22 @@
 }
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
-
 .container-3baos1 {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 35px;
-	padding: 0 10px 0 15px;
+    width: 32px;
+	padding: 0 20px;
 	margin-bottom: 0;
 	background: #202225;
     transition: width 0.5s;
 }
 .container-3baos1:hover {
-    width: 265px;
+    width: 272px;
 	background: #2a2c31;
 }
-.container-3baos1 .avatarSmall-3ACRaI {
-    margin: 0 25px 0 0;
+.avatarWrapper-2yR4wp {
+    margin-right: 20px;
 }
 button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
