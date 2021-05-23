@@ -4,12 +4,10 @@
 .membersWrap-2h-GB4 {
 	min-width: unset;
     width: 52px;
-    height: 1080px;
     transition: width 0.5s;
 }
 .membersWrap-2h-GB4:hover {
     width: 200px;
-    height: auto;
 }
 .members-1998pB {
     max-width: 60px;
@@ -46,69 +44,28 @@
     mask: none;
 }
 
-/*SERVER CHAT*/
+/*CHAT*/
 
-/*Chat messages margin*/
-.message-group {
-    margin-left: 10px;
-	margin-right: 0;
-}
-/*Margin on right of avatar*/
-.message-group .avatar-large {
-    margin-right: 10px;
-}
-/*Imbeded videos padding*/
-.embedInner-1-fpTo {
-    padding: 5px 5px;
-}
-
-/*SERVER CHAT TYPING BAR*/
-
-.chat-3bRxxu form {
-    margin: unset;
+/*Typing bar*/
+.form-2fGMdU {
+    padding-left: unset;
+    padding-right: unset;
 }
 .channelTextArea-rNsIhG {
-    padding: unset;
+    margin-bottom: unset;
 }
-.channelTextArea-rNsIhG {
-    border-top: unset!important;
-    margin: 0;
+.scrollableContainer-2NUZem {
+    border-radius: unset;
 }
-.innerNoAutocomplete-1WpcVO {
-    border-radius: 0;
-    min-height: 52px;
-}
-/*stuff in typing bar re aligning*/
-.emojiButton-2wRZts {
-    top: 15px;
-}
-.textArea-2Spzkt {
-    padding: 14px 38px 10px 10px;
-}
-/*typing*/
-.theme-dark .typing-2GQL18 {
-    background-color: #42454a;
-}
-.theme-light .typing-2GQL18 {
-    background-color: #e5e5e5;
-}
-.typing-2GQL18 {
-    bottom: 75%;
-    left: 50%;
-    width: auto;
-    padding: 0 10px;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 5px 5px 0 0;
-    opacity: .80;
-}
-.typing-2GQL18:hover {
-    opacity: 1;
+/*Chat typing and slowmode position*/
+.base-gE7OpD {
+    bottom: 44px;
 }
 
 /*SERVERS SIDEBAR*/
 nav[aria-label="Servers sidebar"] {
     margin-bottom: 52px;
+    border-bottom: 1px solid var(--background-modifier-accent);
 }
 
 /*USER AREA*/
@@ -119,14 +76,13 @@ section[aria-label="User area"] {
     left: 0;
 }
 .container-3baos1 {
-    width: 32px;
-	padding: 0 20px;
+    width: 44px;
+	padding: 0 8px 0 20px;
 	margin-bottom: 0;
     transition: width 0.5s;
 }
 .container-3baos1:hover {
     width: 284px;
-	padding-right: 8px;
 }
 .avatarWrapper-2yR4wp {
     margin-right: 28px;
