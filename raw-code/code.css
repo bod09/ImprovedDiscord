@@ -76,16 +76,20 @@ section[aria-label="User area"] {
     left: 0;
 }
 .container-3baos1 {
-    width: 44px;
-	padding: 0 8px 0 20px;
+    width: 52px;
+	padding: 0 8px 0 12px;
 	margin-bottom: 0;
     transition: width 0.5s;
 }
 .container-3baos1:hover {
-    width: 284px;
+    width: 292px;
 }
 .avatarWrapper-2yR4wp {
-    margin-right: 28px;
+    margin-right: 20px;
+}
+.container-3baos1 .avatar-SmRMf2 {
+    width: 48px!important;
+    height: 48px!important;
 }
 button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
 	display: none;
