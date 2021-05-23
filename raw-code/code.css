@@ -106,57 +106,9 @@
     opacity: 1;
 }
 
-/*RANDOM STUFF APPLYS TO MORE THAN 1 AREA*/
-
-/*Improved status icon on pictures*/
-.avatar-small .status, .status-oxiHuE {
-    background-color: transparent;
-    height: 32px!important;
-    width: 32px!important;
-    border-radius: 50%!important;
-    bottom: -10%!important;
-    right: -10%!important;
-}
-.online-2S838R {border-color: #43b581!important;}
-.idle-3DEnRT {border-color: #faa61a!important;}
-.dnd-1_xrcq {border-color: #f04747!important;}
-.invisible-1kp8Z0 {border-color: #747f8d!important;}
-/*Improve status icon, add friend fix*/
-.private-channel-recipients-invite .friend .avatar-small .status {
-    height: 28px!important;
-    width: 28px!important;
-}
-/*Fixes avatar placement in friends list*/
-.avatar-small {
-    position: unset;
-}
-.wrapper-2F3Zv8 {
-    position: relative!important;
-}
-/*Hide text before game/program name on servers and friends*/
-.activity-1IYsbk {
-    font-size: 0px;
-}
-.activity-1IYsbk strong {
-    font-size: 11px;
-}
-.private-channels .channel .channel-activity {
-    font-size: 0px;
-}
-.private-channels .channel .channel-activity strong {
-    font-size: 10px;
-}
-/*Game/program text line fix*/
-.activityText-sLG0UL {
-    height: 13px;
-}
-.private-channels .channel .channel-activity-text {chrome://vivaldi-webui/startpage?section=Speed-dials&activeSpeedDialIndex=0&background-color=#2e2e2e
-    height: 10px;
-}
-
-/*GUILD BAR*/
-.guilds-1SWlCJ {
-    margin-bottom: 52px;   
+/*SERVERS SIDEBAR*/
+nav[aria-label="Servers sidebar"] {
+    margin-bottom: 52px;
 }
 
 /*USER AREA*/
@@ -324,3 +276,4 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 /*Google translate plugin button*/
 .translate-button {
 	top: 15px!important;
+}
