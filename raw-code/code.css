@@ -162,35 +162,8 @@
 }
 
 /*GUILD BAR*/
-
-.wrapper-1Rf91z {
-    width: 60px;
+.guilds-1SWlCJ {
     margin-bottom: 52px;   
-}
-.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
-    width: 60px;
-}
-.scrollerWrap-1IAIlv {
-    width: 78px;
-}
-.listItem-2P_4kh {
-    width: 60px;
-}
-.wrapper-sa6paO {
-    height: 40px;
-}
-.svg-1X37T1, .wrapper-25eVIn {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 40px;
-    height: 40px;
-}
-.base-PmTxvP {
-    min-width: 15px;
-    min-height: 15px;
-    font-size: 12px;
-    line-height: 15px;
-    max-width: 26px;
 }
 
 /*BOTTOM LEFT PROFILE/MUTE BUTTONS*/
