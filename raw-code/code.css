@@ -69,13 +69,11 @@ nav[aria-label="Servers sidebar"] {
 }
 
 /*USER AREA*/
-section[aria-label="User area"] {
+.container-3baos1 {
     position: fixed;
     background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
     bottom: 0;
     left: 0;
-}
-.container-3baos1 {
     width: 52px;
 	padding: 0 8px 0 12px;
 	margin-bottom: 0;
@@ -231,9 +229,4 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 }
 #friends .online-2S838R,#friends .idle-3DEnRT,#friends .dnd-1_xrcq {
     border: 2px solid #2f3136;
-}
-
-/*Google translate plugin button*/
-.translate-button {
-	top: 15px!important;
 }
