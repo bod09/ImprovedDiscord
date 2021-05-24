@@ -1,47 +1,21 @@
 /*MEMBER LIST*/
 
-/*Member list width*/
-.membersWrap-2h-GB4 {
-	min-width: unset;
-    width: 52px;
-    transition: width 0.5s;
-}
-.membersWrap-2h-GB4:hover {
-    width: 200px;
-}
-.members-1998pB {
-    max-width: 60px;
-    transition: max-width 0.5s;
-}
-.members-1998pB:hover {
-    max-width: 200px;
-}
 /*Rank headings*/
-.membersGroup-v9BXpm {
-	height: 0px;
-    padding-left: 10px;
-	padding-top: 0px;
-	box-shadow: 0px 0px 0px 1px #36393e;
-    transition: height 0.5s;
-}
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
     height: 20px;
 }
-/*Padding on users*/
-.member-3W1lQa {
-    margin: 1px 0 1px 3px;
+.membersGroup-v9BXpm {
+	height: 0px;
+	padding-top: 4px;
+    border-bottom: var(--background-primary) solid 1px;
+    transition: height 0.5s;
 }
-/*Padding between avtar and name*/
-.avatarWrapper-3B0ndJ {
-    margin-right: 11px;
+/*Status text size*/
+.activityText-yGKsKm {
+    font-size:10px;
 }
-.membersWrap-2h-GB4:hover .avatarWrapper-3B0ndJ {
-    margin-right: 5px;
-}
-/*remove black circle when moving status*/
-.mask-3OgeRz {
-    -webkit-mask: none;
-    mask: none;
+.activityText-yGKsKm strong {
+    font-size: 12px;
 }
 
 /*CHAT*/
@@ -60,6 +34,10 @@
 /*Chat typing and slowmode position*/
 .base-gE7OpD {
     bottom: 44px;
+}
+/*Chat avatar shape*/
+.avatar-1BDn8e {
+    border-radius: 20%;
 }
 
 /*SERVERS SIDEBAR*/
@@ -96,18 +74,12 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 	display: flex;
 }
 
-/*DM's*/
+/*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
 
-/*Purple highlight*/
-.channel-2QD9_O.selected-1HYmZZ a {
-    background-color: #fff0!important;
-}
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a {
-    box-shadow: 6px 0 0 4px #2f3136,-5px 0 0 -0 #b45af4;
+/*Purple highlight (DMs & User Area)*/
+.clickable-1JJAn8.container-2Pjhx-:hover {
+    box-shadow: -5px 0 0 0 #b45af4;
     background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
-	background: -moz-linear-gradient(to right,#b45af459 1%,#fff0 99%);
-	background: -webkit-linear-gradient(to right,#b45af459 1%,#fff0 99%);
-    background-color: #36393f;
 }
 
 /*FRIENDS LIST*/
