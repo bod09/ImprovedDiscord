@@ -85,16 +85,16 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 /*PLUGIN SUPPORT*/
 
 /*GameActivityToggle*/
-button[aria-label="Disable Game Activity"] {
+button[aria-label="Disable Game Activity"], button[aria-label=aria-label="Enable Game Activity"] {
 	display: none;
 }
-.container-3baos1:hover button[aria-label="Disable Game Activity"] {
+.container-3baos1:hover button[aria-label="Disable Game Activity"], .container-3baos1:hover button[aria-label=aria-label="Enable Game Activity"] {
 	display: flex;
 }
 /*MemberCount*/
 #MemberCount {
-    margin-top: unset;
+    margin-top: unset!important;
 }
 .membersWrap-2h-GB4.hasCounter .members-1998pB {
-    margin-top: 20px;
+    margin-top: 20px!important;
 }
