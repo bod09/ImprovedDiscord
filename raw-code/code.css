@@ -81,3 +81,20 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
     box-shadow: -5px 0 0 0 #b45af4;
     background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
 }
+
+/*PLUGIN SUPPORT*/
+
+/*GameActivityToggle*/
+button[aria-label="Disable Game Activity"] {
+	display: none;
+}
+.container-3baos1:hover button[aria-label="Disable Game Activity"] {
+	display: flex;
+}
+/*MemberCount*/
+#MemberCount {
+    margin-top: unset;
+}
+.membersWrap-2h-GB4.hasCounter .members-1998pB {
+    margin-top: 20px;
+}
