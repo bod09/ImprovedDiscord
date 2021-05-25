@@ -95,10 +95,10 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 /*PLUGIN SUPPORT*/
 
 /*GameActivityToggle*/
-button[aria-label="Disable Game Activity"], button[aria-label=aria-label="Enable Game Activity"] {
+.button-14-BFJ {
 	display: none;
 }
-.container-3baos1:hover button[aria-label="Disable Game Activity"], .container-3baos1:hover button[aria-label=aria-label="Enable Game Activity"] {
+.container-3baos1:hover .button-14-BFJ {
 	display: flex;
 }
 /*MemberCount*/
