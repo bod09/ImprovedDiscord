@@ -74,6 +74,13 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 	display: flex;
 }
 
+/*PRIVATE CALL*/
+
+/*Remove mute button under user pictures*/
+.controlButton-2MhVEL.contextMenuContainer-2HlOMK {
+	display: none;
+}
+
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
 
 /*Purple highlight (DMs & User Area)*/
