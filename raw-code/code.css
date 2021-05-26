@@ -76,13 +76,7 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 
 /*PRIVATE CALL*/
 
-/*Remove mute button under user pictures*/
-.contextMenuContainer-2HlOMK {
-	display: none;
-}
-.unmasked-35qKj5 {
-	display: flex;
-}
+/*Mute button fix*/
 
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
 
