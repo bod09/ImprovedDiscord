@@ -76,10 +76,6 @@ nav[aria-label="Servers sidebar"] {
 	display: flex;
 }
 
-/*PRIVATE CALL*/
-
-/*Mute button fix*/
-
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
 
 /*Purple highlight (DMs & User Area)*/
@@ -95,5 +91,8 @@ nav[aria-label="Servers sidebar"] {
     margin-top: unset!important;
 }
 .membersWrap-2h-GB4.hasCounter .members-1998pB {
+    margin-top: 0px!important;
+}
+.membersWrap-2h-GB4:hover.hasCounter .members-1998pB {
     margin-top: 20px!important;
 }
