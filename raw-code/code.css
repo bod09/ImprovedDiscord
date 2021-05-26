@@ -47,6 +47,7 @@ nav[aria-label="Servers sidebar"] {
 }
 
 /*USER AREA*/
+
 .container-3baos1 {
     position: fixed;
     background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
@@ -67,10 +68,11 @@ nav[aria-label="Servers sidebar"] {
     width: 40px!important;
     height: 40px!important;
 }
-button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
+/*Buttons*/
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
 	display: none;
 }
-.container-3baos1:hover button[aria-label="Mute"], .container-3baos1:hover button[aria-label="Unmute"], .container-3baos1:hover button[aria-label="Deafen"], .container-3baos1:hover button[aria-label="User Settings"] {
+.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
 	display: flex;
 }
 
@@ -88,13 +90,6 @@ button[aria-label="Mute"], button[aria-label="Unmute"], button[aria-label="Deafe
 
 /*PLUGIN SUPPORT*/
 
-/*GameActivityToggle*/
-.button-14-BFJ {
-	display: none;
-}
-.container-3baos1:hover .button-14-BFJ {
-	display: flex;
-}
 /*MemberCount*/
 #MemberCount {
     margin-top: unset!important;
