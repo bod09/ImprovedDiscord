@@ -33,7 +33,8 @@
 }
 /*Chat typing and slowmode position*/
 .base-gE7OpD {
-    bottom: 44px;
+    bottom: unset;
+    top: -24px;
 }
 /*Chat avatar shape*/
 .avatar-1BDn8e {
