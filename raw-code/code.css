@@ -91,6 +91,29 @@ nav[aria-label="Servers sidebar"] {
     background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
 }
 
+/*TOP BAR*/
+
+/*Top Bar Blur*/
+.container-1r6BKw.themed-ANHk51 {
+    position: absolute;
+    box-shadow: var(--elevation-low);
+    background: rgba( 54, 57, 63, 0.75 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+}
+/*Old box-shadow*/
+.content-yTz4x3:before {
+    box-shadow: unset;
+}
+/*New Messages In Chat Fix*/
+.newMessagesBar-265mhP {
+    margin-top: 48px;
+}
+/*Member List Fix*/
+.members-1998pB, .members-1998pB>div {
+    padding-top: 24px;
+}
+
 /*PLUGIN SUPPORT*/
 
 /*GameActivityToggle*/
@@ -100,7 +123,6 @@ nav[aria-label="Servers sidebar"] {
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label*="Game Activity"] {
 	display: flex!important;
 }
-
 /*MemberCount*/
 #MemberCount {
     margin-top: unset!important;
