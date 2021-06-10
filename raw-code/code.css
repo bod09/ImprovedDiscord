@@ -114,6 +114,15 @@ nav[aria-label="Servers sidebar"] {
     padding-top: 24px;
 }
 
+/*PRIVATE CALL Transparent*/
+.wrapper-2qzCYF.minimum-28Z35l {
+    position: absolute;
+    background: rgba( 24, 25, 28, 0.75 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    width: 100%;
+}
+
 /*PLUGIN SUPPORT*/
 
 /*GameActivityToggle*/
