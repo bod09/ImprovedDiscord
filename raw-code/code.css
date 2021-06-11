@@ -5,8 +5,8 @@
     height: 20px;
 }
 .membersGroup-v9BXpm {
-	height: 0px;
-	padding-top: 4px;
+    height: 0px;
+    padding-top: 4px;
     border-bottom: var(--background-primary) solid 1px;
     transition: height 0.5s;
 }
@@ -55,8 +55,8 @@ nav[aria-label="Servers sidebar"] {
     bottom: 0;
     left: 0;
     width: 48px;
-	padding: 0 8px 0 16px;
-	margin-bottom: 0;
+    padding: 0 8px 0 16px;
+    margin-bottom: 0;
     transition: width 0.5s;
 }
 .container-3baos1:hover {
@@ -74,13 +74,13 @@ nav[aria-label="Servers sidebar"] {
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"],
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Deafen"],
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
-	display: none;
+    display: none;
 }
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Mute"],
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"],
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Deafen"],
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
-	display: flex;
+    display: flex;
 }
 
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
@@ -113,6 +113,30 @@ nav[aria-label="Servers sidebar"] {
 .members-1998pB, .members-1998pB>div {
     padding-top: 24px;
 }
+/*Friends Tab Fix*/
+.container-1D34oG {
+    position: relative;
+}
+.peopleList-3c4jOR {
+    padding-top: 48px;
+}
+.scroller-2ZPeAD {
+    padding-top: 64px;
+}
+/*Stage Discovery Tab Fix*/
+.container-1a3EgQ {
+    position: relative;
+}
+.container-24CyRY {
+    padding-top: 48px;
+}
+/*Library Tab Fix*/
+.container-3Mxszk {
+    position: relative;
+}
+.header-39GIC8 {
+    padding-top: 68px;
+}
 
 /*PRIVATE CALL Transparent*/
 .wrapper-2qzCYF.minimum-28Z35l {
@@ -127,19 +151,20 @@ nav[aria-label="Servers sidebar"] {
 
 /*GameActivityToggle*/
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label*="Game Activity"] {
-	display: none!important;
+    display: none!important;
 }
 .container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label*="Game Activity"] {
-	display: flex!important;
+    display: flex!important;
 }
 /*MemberCount*/
 #MemberCount {
     margin-top: unset!important;
+    top: 48px;
 }
 .membersWrap-2h-GB4.hasCounter .members-1998pB {
     margin-top: 0px!important;
-    transition: margin-top 0.5s;
+    transition: padding-top 0.5s;
 }
 .membersWrap-2h-GB4:hover.hasCounter .members-1998pB {
-    margin-top: 20px!important;
+    padding-top: 48px!important;
 }
