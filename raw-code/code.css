@@ -86,9 +86,9 @@ nav[aria-label="Servers sidebar"] {
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
 
 /*Purple highlight (DMs & User Area)*/
-.clickable-1JJAn8.container-2Pjhx-:hover {
+.clickable-1JJAn8:hover .layout-2DM8Md {
     box-shadow: -5px 0 0 0 #b45af4;
-    background: linear-gradient(to right,#b45af459 1%,#fff0 99%);
+    background: linear-gradient(to right,#b45af459 1%,rgb(79 84 92 / 16%));
 }
 
 /*TOP BAR*/
