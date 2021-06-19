@@ -110,8 +110,8 @@ nav[aria-label="Servers sidebar"] {
     margin-top: 48px;
 }
 /*Member List Fix*/
-.members-1998pB, .members-1998pB>div {
-    padding-top: 24px;
+.members-1998pB {
+    padding-top: 48px;
 }
 /*Friends Tab Fix*/
 .container-1D34oG {
