@@ -159,7 +159,7 @@ nav[aria-label="Servers sidebar"] {
 /*MemberCount*/
 #MemberCount {
     margin-top: unset!important;
-    top: 48px;
+    top: 48px!important;
 }
 .membersWrap-2h-GB4.hasCounter .members-1998pB {
     margin-top: 0px!important;
