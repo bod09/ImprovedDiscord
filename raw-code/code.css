@@ -43,7 +43,7 @@
 
 /*SERVERS SIDEBAR*/
 nav[aria-label="Servers sidebar"] {
-    margin-bottom: 84px;
+    margin-bottom: 86px;
 }
 
 /*USER AREA*/
@@ -69,40 +69,23 @@ nav[aria-label="Servers sidebar"] {
     height: 40px!important;
 }
 /*Buttons*/
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"] {
-    display: none;
-}
-/*Buttons Hover*/
-.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"] {
-    display: flex;
-}
-/*Buttons Top*/
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Mute"]{
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
     position: absolute;
-    width: 24px;
+    overflow: hidden;
+    width: 72px;
+    height: auto;
     left: 0;
-    top: -32px;
-    border-radius: 0;
+    top: -34px;
     border-top: 1px solid var(--background-modifier-accent);
     border-bottom: 1px solid var(--background-modifier-accent);
 }
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Deafen"]{
-    position: absolute;
-    width: 24px;
-    left: 24px;
-    top: -32px;
-    border-radius: 0;
-    border-top: 1px solid var(--background-modifier-accent);
-    border-bottom: 1px solid var(--background-modifier-accent);
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
+    width: auto;
 }
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
-    position: absolute;
-    width: 24px;
-    left: 48px;
-    top: -32px;
+.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+    min-width: 24px;
+    max-width: 24px;
     border-radius: 0;
-    border-top: 1px solid var(--background-modifier-accent);
-    border-bottom: 1px solid var(--background-modifier-accent);
 }
 
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
@@ -171,13 +154,6 @@ nav[aria-label="Servers sidebar"] {
 
 /*PLUGIN SUPPORT*/
 
-/*GameActivityToggle*/
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label*="Game Activity"] {
-    display: none!important;
-}
-.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label*="Game Activity"] {
-    display: flex!important;
-}
 /*MemberCount*/
 #MemberCount {
     margin-top: unset!important;
