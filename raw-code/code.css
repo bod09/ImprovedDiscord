@@ -76,6 +76,7 @@ nav[aria-label="Servers sidebar"] {
     height: auto;
     left: 0;
     top: -34px;
+    background: var(--background-tertiary);
     border-top: 1px solid var(--background-modifier-accent);
     border-bottom: 1px solid var(--background-modifier-accent);
 }
