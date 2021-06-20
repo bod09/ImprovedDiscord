@@ -72,8 +72,7 @@ nav[aria-label="Servers sidebar"] {
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6{
     position: absolute;
     overflow: hidden;
-    width: 72px;
-    height: auto;
+    max-width: 72px;
     left: 0;
     top: -34px;
     background: var(--background-tertiary);
@@ -81,11 +80,12 @@ nav[aria-label="Servers sidebar"] {
     border-bottom: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
-    width: auto;
+    max-width: 312px;
+    transition: max-width 2.5s;
 }
 .container-3baos1 .button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
     min-width: 24px;
-    max-width: 24px;
+    max-width: 32px;
     border-radius: 0;
 }
 
