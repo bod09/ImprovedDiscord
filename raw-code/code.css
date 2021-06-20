@@ -69,7 +69,7 @@ nav[aria-label="Servers sidebar"] {
     height: 40px!important;
 }
 /*Buttons*/
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 div[style="flex: 0 1 auto;"]{
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6"][style="flex: 0 1 auto;"]{
     position: absolute;
     overflow: hidden;
     width: 72px;
@@ -80,7 +80,7 @@ nav[aria-label="Servers sidebar"] {
     border-top: 1px solid var(--background-modifier-accent);
     border-bottom: 1px solid var(--background-modifier-accent);
 }
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 div[style="flex: 0 1 auto;"]:hover {
+div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6"][style="flex: 0 1 auto;"]:hover {
     width: auto;
 }
 .button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
