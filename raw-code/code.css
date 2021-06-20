@@ -69,19 +69,17 @@ nav[aria-label="Servers sidebar"] {
     height: 40px!important;
 }
 /*Buttons*/
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"],
-.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"] {
     display: none;
 }
 /*Buttons Hover*/
-.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"],
-.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
+.container-3baos1:hover .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Unmute"] {
     display: flex;
 }
 /*Buttons Top*/
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Mute"]{
     position: absolute;
-    width: 36px;
+    width: 24px;
     left: 0;
     top: -32px;
     border-radius: 0;
@@ -90,8 +88,17 @@ nav[aria-label="Servers sidebar"] {
 }
 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="Deafen"]{
     position: absolute;
-    width: 36px;
-    left: 36px;
+    width: 24px;
+    left: 24px;
+    top: -32px;
+    border-radius: 0;
+    border-top: 1px solid var(--background-modifier-accent);
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 button[aria-label="User Settings"] {
+    position: absolute;
+    width: 24px;
+    left: 48px;
     top: -32px;
     border-radius: 0;
     border-top: 1px solid var(--background-modifier-accent);
