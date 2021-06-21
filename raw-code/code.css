@@ -51,12 +51,13 @@ nav[aria-label="Servers sidebar"] {
 .container-3baos1 {
     position: fixed;
     background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
-    bottom: 0;
+    bottom: 33px;
     left: 0;
     width: 48px;
     padding: 0 8px 0 16px;
     margin-bottom: 0;
     transition: width 0.5s;
+    border-top: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1:hover {
     width: 288px;
@@ -74,10 +75,9 @@ nav[aria-label="Servers sidebar"] {
     overflow: hidden;
     max-width: 72px;
     left: 0;
-    top: -34px;
+    top: 52px;
     background: var(--background-tertiary);
     border-top: 1px solid var(--background-modifier-accent);
-    border-bottom: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
     max-width: 312px;
