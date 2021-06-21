@@ -51,23 +51,36 @@ nav[aria-label="Servers sidebar"] {
 .container-3baos1 {
     position: fixed;
     background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
-    bottom: 33px;
+    bottom: 0;
     left: 0;
-    width: 48px;
-    padding: 0 8px 0 16px;
+    max-width: 72px;
+    height: 32px;
+    padding: unset;
     margin-bottom: 0;
-    transition: width 0.5s;
+    border-radius: 0 15px 0 0;
     border-top: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1:hover {
-    width: 288px;
+    max-width: 312px;
+    transition: max-width 2s;
 }
+/*Avatar*/
 .avatarWrapper-2yR4wp {
-    margin-right: 24px;
+    position: absolute;
+    bottom: 33px;
+    left: 0;
+    padding: 6px 16px;
+    margin-right: unset;
+    border-top: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1 .avatar-SmRMf2 {
     width: 40px!important;
     height: 40px!important;
+}
+/*Name*/
+.nameTag-3uD-yy {
+    margin-left: 101px;
+    margin-right: 28px;
 }
 /*Buttons*/
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6{
@@ -75,9 +88,7 @@ nav[aria-label="Servers sidebar"] {
     overflow: hidden;
     max-width: 72px;
     left: 0;
-    top: 52px;
     background: var(--background-tertiary);
-    border-top: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
     max-width: 312px;
