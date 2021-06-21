@@ -50,19 +50,20 @@ nav[aria-label="Servers sidebar"] {
 
 .container-3baos1 {
     position: fixed;
-    background: linear-gradient(90deg, var(--background-tertiary) 72px, var(--background-secondary-alt) 72px);
+    background: var(--background-secondary-alt);
     bottom: 0;
     left: 0;
     max-width: 72px;
     height: 32px;
     padding: unset;
     margin-bottom: 0;
-    border-radius: 0 15px 0 0;
     border-top: 1px solid var(--background-modifier-accent);
 }
 .container-3baos1:hover {
     max-width: 312px;
+    border-radius: 0 15px 0 0;
     transition: max-width 2s;
+    border-right: 1px solid var(--background-modifier-accent);
 }
 /*Avatar*/
 .avatarWrapper-2yR4wp {
