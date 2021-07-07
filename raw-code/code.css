@@ -50,10 +50,10 @@ nav[aria-label="Servers sidebar"] {
 
 .container-3baos1 {
     position: fixed;
-    background: var(--background-secondary-alt);
+    background: var(--background-tertiary);
     bottom: 0;
     left: 0;
-    max-width: 312px;
+    max-width: 72px;
     height: 32px;
     padding: unset;
     margin-bottom: 0;
@@ -117,15 +117,6 @@ nav[aria-label="Servers sidebar"] {
     line-height: 18px;
 }
 /*Buttons*/
-.container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6{
-    max-width: 72px;
-    overflow:  hidden;
-    background: var(--background-tertiary);
-}
-.container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
-    max-width: 312px;
-    transition: max-width 2.5s;
-}
 .container-3baos1 .button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
     min-width: 24px;
     max-width: 24px;
