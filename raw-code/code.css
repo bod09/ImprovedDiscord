@@ -90,11 +90,8 @@ nav[aria-label="Servers sidebar"] {
     margin-right: unset;
     display: none;
 }
-.avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy{
-    display: revert;
-}
-.nameTag-3uD-yy:hover{
-    display: revert;
+.avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy, .nameTag-3uD-yy:hover{
+    display: flex;
 }
 /*Name Tag Container Arrow*/
 #app-mount .container-3baos1 .nameTag-3uD-yy::before{
