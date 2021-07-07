@@ -119,6 +119,7 @@ nav[aria-label="Servers sidebar"] {
 /*Buttons*/
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6{
     max-width: 72px;
+    overflow:  hidden;
     background: var(--background-tertiary);
 }
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
