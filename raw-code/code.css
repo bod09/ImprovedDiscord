@@ -53,7 +53,7 @@ nav[aria-label="Servers sidebar"] {
     background: var(--background-secondary-alt);
     bottom: 0;
     left: 0;
-    max-width: 72px;
+    max-width: 312px;
     height: 32px;
     padding: unset;
     margin-bottom: 0;
@@ -61,7 +61,6 @@ nav[aria-label="Servers sidebar"] {
 }
 .container-3baos1:hover {
     max-width: 312px;
-    border-radius: 0 15px 0 0;
     transition: max-width 2s;
     border-right: 1px solid var(--background-modifier-accent);
 }
@@ -78,17 +77,51 @@ nav[aria-label="Servers sidebar"] {
     width: 40px!important;
     height: 40px!important;
 }
-/*Name*/
+/*Name Tag Container*/
 .nameTag-3uD-yy {
-    margin-left: 101px;
-    margin-right: 28px;
+    background: var(--background-floating);
+    padding: 2px 5px;
+    border-radius: 5px;
+    position: absolute;
+    width: max-content;
+    height: 18px;
+    bottom: 48px;
+    left: 80px;
+    margin-right: unset;
+    display: none;
+}
+.avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy{
+    display: revert;
+}
+.nameTag-3uD-yy:hover{
+    display: revert;
+}
+/*Name Tag Container Arrow*/
+#app-mount .container-3baos1 .nameTag-3uD-yy::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -5px;
+    border-left-width: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: var(--background-floating);
+}
+/*Name Tag On One Line*/
+.usernameContainer-1fp4nu {
+    float: left;
+}
+.title-eS5yk3, .subtext-3CDbHg {
+    display: inline;
+    line-height: 18px;
 }
 /*Buttons*/
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6{
-    position: absolute;
-    overflow: hidden;
     max-width: 72px;
-    left: 0;
     background: var(--background-tertiary);
 }
 .container-3baos1 .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6:hover {
@@ -99,6 +132,16 @@ nav[aria-label="Servers sidebar"] {
     min-width: 24px;
     max-width: 24px;
     border-radius: 0;
+}
+/*Voice Connection Container*/
+.container-1giJp5 {
+    border-top: 1px solid var(--background-modifier-accent);
+    border-bottom: unset;
+}
+/*Game Stream Container*/
+.panel-24C3ux {
+    padding: 7px;
+    border-bottom: unset;
 }
 
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
