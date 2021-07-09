@@ -85,7 +85,7 @@ nav[aria-label="Servers sidebar"] {
     position: absolute;
     width: max-content;
     height: 18px;
-    bottom: 47px;
+    bottom: 46px;
     left: 80px;
     margin-right: unset;
     display: none;
@@ -112,8 +112,7 @@ nav[aria-label="Servers sidebar"] {
 .usernameContainer-1fp4nu {
     float: left;
 }
-.title-eS5yk3, .subtext-3CDbHg {
-    display: inline;
+.size12-3cLvbJ.subtext-3CDbHg {
     line-height: 18px;
 }
 /*Buttons*/
@@ -213,5 +212,7 @@ nav[aria-label="Servers sidebar"] {
 }
 /*CallTimeCounter*/
 .voiceTimer {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 8px;
 }
