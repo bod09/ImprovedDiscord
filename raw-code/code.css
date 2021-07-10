@@ -57,13 +57,15 @@ nav[aria-label="Servers sidebar"] {
     height: 32px;
     padding: unset;
     margin-bottom: 0;
-    overflow: hidden;
     border-top: 1px solid var(--background-modifier-accent);
 }
 /*Support For Extra Buttons*/
 .container-3baos1:hover {
     max-width: 312px;
     transition: max-width 2s;
+}
+.container-3baos1.gameActivityToggleAdded-Yd-YxC .flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 {
+    overflow: hidden;
 }
 /*Avatar*/
 .avatarWrapper-2yR4wp {
