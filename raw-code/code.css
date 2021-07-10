@@ -215,7 +215,5 @@ nav[aria-label="Servers sidebar"] {
 }
 /*CallTimeCounter*/
 .voiceTimer {
-    position: absolute;
-    top: 0;
-    right: 8px;
+    display: inline;
 }
