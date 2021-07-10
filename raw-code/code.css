@@ -57,6 +57,7 @@ nav[aria-label="Servers sidebar"] {
     height: 32px;
     padding: unset;
     margin-bottom: 0;
+    overflow: hidden;
     border-top: 1px solid var(--background-modifier-accent);
 }
 /*Support For Extra Buttons*/
