@@ -1,3 +1,10 @@
+:root {
+--theme-background: repeating-linear-gradient(45deg, var(--background-primary), #00000075 150px, var(--background-primary) 300px, #ffffff10 301px);
+}
+#app-mount {
+    background: var(--theme-background);
+}
+
 /*MEMBER LIST*/
 
 /*Rank headings*/
@@ -59,8 +66,8 @@
     left: -57px;
 }
 /*Chat Scroller Background*/
-.scrollerInner-2YIMLh {
-    background: repeating-linear-gradient(45deg, var(--background-primary), #00000075 150px, var(--background-primary) 300px, #ffffff10 301px);
+#app-mount .app-2rEoOp, .bg-h5JY_x, .chat-3bRxxu {
+    background-color: unset;
 }
 /*Typing bar*/
 .form-2fGMdU {
