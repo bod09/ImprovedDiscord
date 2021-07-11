@@ -60,7 +60,7 @@
 }
 /*Chat Scroller Background*/
 .scrollerInner-2YIMLh {
-    background: repeating-linear-gradient(45deg, var(--background-primary), #00000075, var(--background-primary) 150px);
+    background: repeating-linear-gradient(45deg, var(--background-primary), #ffffff20 165px, #00000075 200px);
 }
 /*Typing bar*/
 .form-2fGMdU {
