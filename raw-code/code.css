@@ -27,7 +27,7 @@
     border: 1px solid var(--background-secondary);
     width: fit-content;
     margin-left: 72px;
-    padding: 8px!important;
+    padding: 6px 8px!important;
 }
 /*Chat Message Box Arrow*/
 .groupStart-23k01U::before {
