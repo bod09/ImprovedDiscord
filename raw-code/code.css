@@ -20,6 +20,10 @@
 
 /*CHAT*/
 
+/*Chat Scroller Background*/
+.scrollerInner-2YIMLh {
+    background: repeating-linear-gradient(45deg, var(--background-primary), #00000075, var(--background-primary) 150px);
+}
 /*Typing bar*/
 .form-2fGMdU {
     padding-left: unset;
@@ -106,8 +110,6 @@ nav[aria-label="Servers sidebar"] {
     border-left-width: 5px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    width: 0;
-    height: 0;
     border: 5px solid transparent;
     border-top-color: var(--background-floating);
 }
