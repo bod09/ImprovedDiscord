@@ -30,11 +30,11 @@
     padding: 8px!important;
 }
 /*Chat Message Box Arrow*/
-.message-2qnXI6::before {
+.groupStart-23k01U::before {
     content: "";
     position: absolute;
     left: -11px;
-    top: 50%;
+    top: 30px;
     margin-top: -5px;
     border-left-width: 5px;
     -webkit-transform: rotate(90deg);
@@ -42,11 +42,11 @@
     border: 5px solid transparent;
     border-top-color: var(--background-secondary);
 }
-.message-2qnXI6::after {
+.groupStart-23k01U::after {
     content: "";
     position: absolute;
     left: -10px;
-    top: 50%;
+    top: 30px;
     margin-top: -5px;
     border-left-width: 5px;
     -webkit-transform: rotate(90deg);
