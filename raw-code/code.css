@@ -20,6 +20,44 @@
 
 /*CHAT*/
 
+/*Chat Message Box*/
+.message-2qnXI6{
+    background: var(--background-floating);
+    border-radius: 15px;
+    border: 1px solid var(--background-secondary);
+    width: fit-content;
+    margin-left: 72px;
+    padding: 8px!important;
+}
+/*Chat Message Box Arrow*/
+.message-2qnXI6::before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 50%;
+    margin-top: -5px;
+    border-left-width: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 5px solid transparent;
+    border-top-color: var(--background-secondary);
+}
+.message-2qnXI6::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -5px;
+    border-left-width: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 5px solid transparent;
+    border-top-color: var(--background-floating);
+}
+/*Avatar Fix*/
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e.clickable-1bVtEA {
+    left: -57px;
+}
 /*Chat Scroller Background*/
 .scrollerInner-2YIMLh {
     background: repeating-linear-gradient(45deg, var(--background-primary), #00000075, var(--background-primary) 150px);
