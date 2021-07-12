@@ -1,5 +1,5 @@
 :root {
---theme-background: repeating-linear-gradient(45deg, var(--background-primary), #00000075 150px, var(--background-primary) 300px, #ffffff10 301px);
+--theme-background: repeating-linear-gradient(45deg, var(--background-primary), #00000075 150px, var(--background-primary) 300px, #ffffff25 301px);
 }
 #app-mount {
     background: var(--theme-background);
@@ -263,4 +263,10 @@ nav[aria-label="Servers sidebar"] {
 /*CallTimeCounter*/
 .voiceTimer {
     display: inline;
+}
+
+/*Top Bar Test*/
+.typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3{
+    background-color: #fff0!important;
+    backdrop-filter: blur( 5.0px )!important;
 }
