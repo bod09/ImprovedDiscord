@@ -204,7 +204,7 @@ nav[aria-label="Servers sidebar"] {
 .container-1r6BKw.themed-ANHk51 {
     position: absolute;
     box-shadow: var(--elevation-low);
-    background: rgba( 54, 57, 63, 0.75 );
+    background: #00000050;
     backdrop-filter: blur( 5.0px );
     -webkit-backdrop-filter: blur( 5.0px );
 }
