@@ -6,6 +6,17 @@
     background: var(--theme-background);
 }
 
+/*WINDOWS APP BAR*/
+
+.typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3{
+    background-color: #fff0!important;
+    backdrop-filter: blur( 10px )!important;
+}
+.withFrame-haYltI {
+    margin-top: unset;
+    padding-top: 4px;
+}
+
 /*MEMBER LIST*/
 
 /*Background*/
@@ -275,8 +286,3 @@ nav[aria-label="Servers sidebar"] {
     display: inline;
 }
 
-/*Top Bar Test*/
-.typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3{
-    background-color: #fff0!important;
-    backdrop-filter: blur( 5.0px )!important;
-}
