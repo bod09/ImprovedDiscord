@@ -111,8 +111,20 @@
 }
 
 /*SERVERS SIDEBAR*/
+
 nav[aria-label="Servers sidebar"] {
     margin-bottom: 86px;
+}
+
+/*LEFT SIDE BAR*/
+
+/*Transparency*/
+.sidebar-2K8pFh, .scroller-1JbKMe {
+    background: unset;
+}
+.container-3w7J-x, [aria-label="Private channels"] {
+    background-color: unset;
+    backdrop-filter: blur( 50px );
 }
 
 /*USER AREA*/
