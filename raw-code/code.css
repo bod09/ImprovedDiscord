@@ -7,6 +7,14 @@
 
 /*MEMBER LIST*/
 
+/*Background*/
+.members-1998pB {
+    background-color: #00000050;
+    backdrop-filter: blur( 5.0px );
+}
+.members-1998pB>div{
+    background-color: unset;
+}
 /*Rank headings*/
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
     height: 20px;
