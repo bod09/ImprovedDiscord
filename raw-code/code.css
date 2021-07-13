@@ -94,6 +94,24 @@
 #app-mount .app-2rEoOp, .bg-h5JY_x, .chat-3bRxxu {
     background-color: unset;
 }
+/*Edit Message Container Max Size*/
+.channelTextArea-3bF57p.channelTextArea-2VhZ6z .scrollableContainer-2NUZem.webkit-HjD9Er {
+    overflow-y: hidden;
+}
+.channelTextArea-3bF57p.channelTextArea-2VhZ6z .scrollableContainer-2NUZem.webkit-HjD9Er .inner-MADQqc .textArea-12jD-V.textAreaSlate-1ZzRVj.slateContainer-3Qkn2x .markup-2BOw-j.slateTextArea-1Mkdgw.fontSize16Padding-3Wk7zP.textAreaWithoutAttachmentButton-qiaiTB {
+    width: fit-content!important;
+}
+/*Edit Message Emoji Button*/
+.channelTextArea-3bF57p.channelTextArea-2VhZ6z .scrollableContainer-2NUZem.webkit-HjD9Er .inner-MADQqc .buttons-3JBrkn {
+    position: fixed;
+    top: 6px;
+    right: 14px;
+    background-color: var(--background-primary);
+    -webkit-box-shadow: var(--elevation-stroke);
+    box-shadow: var(--elevation-stroke);
+    height: 38px;
+    border-radius: 4px;
+}
 /*Typing bar*/
 .form-2fGMdU {
     padding-left: unset;
