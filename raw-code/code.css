@@ -152,8 +152,8 @@ nav[aria-label="Servers sidebar"] {
 .panels-j1Uci_{
     position: absolute;
     bottom: 0;
-    max-width: 240px;
-    background-color: var(--background-primary);
+    width: 240px;
+    background-color: var(--theme-background-primary);
 }
 /*Blur*/
 .wrapper-24pKcD, .panel-24C3ux {
