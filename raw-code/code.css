@@ -64,7 +64,7 @@
     padding: 6px 8px!important;
     backdrop-filter: blur( 5px );
 }
-.groupStart-23k01U::after {
+[class*="cozyMessage-3V1Y8y groupStart-23k01U"]::after {
     content: "";
     position: absolute;
     left: -11px;
@@ -76,7 +76,19 @@
     border: 5px solid transparent;
     border-top-color: var(--background-modifier-accent);
 }
-/*Mentioned Fix*/
+/*Mentioned Message Box*/
+[class*="mentioned-xhSam7 groupStart-23k01U"]::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 30px;
+    margin-top: -5px;
+    border-left-width: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: 5px solid transparent;
+    border-top-color: var(--info-warning-foreground);
+}
 .mentioned-xhSam7 {
     background-color: var(--background-mentioned);
 }
