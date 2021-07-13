@@ -352,3 +352,13 @@ nav[aria-label="Servers sidebar"] {
 .voiceTimer {
     display: inline;
 }
+
+/*PERSONAL CODE*/
+
+img[src*="https://cdn.discordapp.com/avatars/131383022653145089/3c66dcf496842a6295938e0a07d1cb97.png"] {
+    transition: transform .7s ease-in-out, opacity .7s ease-in-out;
+}
+img[src*="https://cdn.discordapp.com/avatars/131383022653145089/3c66dcf496842a6295938e0a07d1cb97.png"]:hover {
+    transform: rotate(360deg);
+    opacity: 0%;
+}
