@@ -138,15 +138,25 @@ nav[aria-label="Servers sidebar"] {
 
 /*CHANNEL CONNECTED & CURRENT GAME*/
 
+/*Voice Connection Container*/
+.container-1giJp5 {
+    border-top: 1px solid var(--background-modifier-accent);
+    border-bottom: unset;
+}
+/*Game Stream Container*/
+.panel-24C3ux {
+    border-top: 1px solid var(--background-modifier-accent);
+    padding: 7px;
+    border-bottom: unset;
+}
 .panels-j1Uci_{
     position: absolute;
     bottom: 0;
     max-width: 240px;
-    background-color: unset;
+    background-color: var(--background-primary);
 }
-.panels-j1Uci_::before {
-    content: "";
-    width: 240px;
+/*Blur*/
+.wrapper-24pKcD, .panel-24C3ux {
     backdrop-filter: blur( 5px );
 }
 
@@ -226,16 +236,6 @@ nav[aria-label="Servers sidebar"] {
     min-width: 24px;
     max-width: 24px;
     border-radius: 0;
-}
-/*Voice Connection Container*/
-.container-1giJp5 {
-    border-top: 1px solid var(--background-modifier-accent);
-    border-bottom: unset;
-}
-/*Game Stream Container*/
-.panel-24C3ux {
-    padding: 7px;
-    border-bottom: unset;
 }
 
 /*RANDOM STUFF (COVERS MULTIPLE AREAS)*/
