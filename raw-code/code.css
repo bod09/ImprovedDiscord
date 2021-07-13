@@ -77,6 +77,9 @@
     border-top-color: var(--background-modifier-accent);
 }
 /*Mentioned Fix*/
+.mentioned-xhSam7 {
+    background-color: var(--background-mentioned);
+}
 .mentioned-xhSam7:before {
     width: 26px;
     border-left: 2px solid var(--info-warning-foreground);
