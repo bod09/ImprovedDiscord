@@ -1,7 +1,7 @@
 :root {
 --theme-background: repeating-linear-gradient(45deg, var(--background-primary), #00000075 150px, var(--background-primary) 300px, #ffffff25 301px);
 --theme-background-primary: #00000050;
---theme-background-secondary: #00000000;
+--theme-background-secondary: #00000025;
 }
 #app-mount {
     background: var(--theme-background);
@@ -131,8 +131,23 @@ nav[aria-label="Servers sidebar"] {
     background: unset;
 }
 .container-3w7J-x, [aria-label="Private channels"] {
-    background-color: unset;
+    background-color: var(--theme-background-secondary);
     backdrop-filter: blur( 50px );
+}
+
+
+/*CHANNEL CONNECTED & CURRENT GAME*/
+
+.panels-j1Uci_{
+    position: absolute;
+    bottom: 0;
+    max-width: 240px;
+    background-color: unset;
+}
+.panels-j1Uci_::before {
+    content: "";
+    width: 240px;
+    backdrop-filter: blur( 5px );
 }
 
 /*USER AREA*/
