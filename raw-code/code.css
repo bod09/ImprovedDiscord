@@ -9,17 +9,13 @@
 
 /*WINDOWS APP BAR*/
 
-.typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3{
-    background: #fff0;
-    backdrop-filter: blur( 10px );
-}
 .typeWindows-1za-n7.withFrame-haYltI.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3::before{
     content: "";
     position: absolute;
     width: 100%;
     height: 22px;
-    top:  0;
-    left: 0;
+    top:  0px;
+    left: 0px;
     background: #fff0;
     backdrop-filter: blur( 10px );
 }
@@ -101,6 +97,10 @@
 /*Avatar Fix*/
 .message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e.clickable-1bVtEA {
     left: -57px;
+}
+/*Timestamp Fix On Secondary Messages*/
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    left: -73px;
 }
 /*Chat Scroller Background*/
 #app-mount .app-2rEoOp, .bg-h5JY_x, .chat-3bRxxu {
@@ -358,7 +358,7 @@ nav[aria-label="Servers sidebar"] {
 img[src*="https://cdn.discordapp.com/avatars/131383022653145089/3c66dcf496842a6295938e0a07d1cb97."] {
     transition: transform .7s ease-in-out, opacity .7s ease-in-out;
 }
-img[src*="https://cdn.discordapp.com/avatars/131383022653145089/3c66dcf496842a6295938e0a07d1cb97."]:hover {
+img[src*="https://cdn.discordapp.com/avatars/131383022653145089/3c66dcf496842a6295938e0a07d1cb97.png"]:hover {
     transform: rotate(360deg);
     opacity: 0%;
 }
