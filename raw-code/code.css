@@ -326,7 +326,7 @@ nav[aria-label="Servers sidebar"] {
 }
 /*Friends Tab Background*/
 .container-1D34oG {
-    background-color: unset;
+    background-color: unset!important;
 }
 /*Stage Discovery Background*/
 .stageSection-3mAD8V {
