@@ -328,6 +328,11 @@ nav[aria-label="Servers sidebar"] {
 .container-1D34oG {
     background-color: unset!important;
 }
+.peopleListItem-2nzedh {
+    background: var(--theme-background-primary:);
+    padding: 0 10px;
+    border-radius: 8px;
+}
 /*Stage Discovery Background*/
 .stageSection-3mAD8V {
     background:  unset;
